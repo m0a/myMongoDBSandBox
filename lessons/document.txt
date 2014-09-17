@@ -1,0 +1,79 @@
+Script started on Thu Sep 18 08:12:27 2014
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongodb mydb[?1l>
+zsh: correct 'mongodb' to 'mongod' [nyae]? n
+]2;mongodb mydb]1;mongodbzsh: command not found: mongodb
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo mydb[?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> db.crea[3G[Jdb.create[12G[3G[Jdb.create[12G
+db.createCollection(  db.createRole(        db.createUser(
+> [3G[Jdb.create[12GC[3G[Jdb.createCollection([23G'users')[3G[Jdb.createCollection('users')[31G
+{ "ok" : 1 }
+> db.us[3G[Jdb.users[11G.ins[3G[Jdb.users.insert([19G{name:"makoto",score:30})[3G[Jdb.users.insert({name:"makoto",score:30})[44G
+WriteResult({ "nInserted" : 1 })
+> db.us[3G[Jdb.users[11G.ins[3G[Jdb.users.insert([19G{name""[3G[Jdb.users.insert({name""[25G[3G[Jdb.users.insert({name""[24G[3G[Jdb.users.insert({name:""[25G[3G[Jdb.users.insert({name:""[26G[3G[Jdb.users.insert({name:"a"[27G[3G[Jdb.users.insert({name:"ak"[28G[3G[Jdb.users.insert({name:"aki"[29G[3G[Jdb.users.insert({name:"akik"[30G[3G[Jdb.users.insert({name:"akiko"[31G[3G[Jdb.users.insert({name:"akiko"[32G,tags:["web","mobile"]})[3G[Jdb.users.insert({name:"akiko",tags:["web","mobile"]})[56G
+WriteResult({ "nInserted" : 1 })
+> db.us[3G[Jdb.users[11G.fin[3G[Jdb.users.find[16G()[3G[Jdb.users.find()[18G
+{ "_id" : ObjectId("541a15d6150edc4f3b28e8ae"), "name" : "makoto", "score" : 30 }
+{ "_id" : ObjectId("541a1604150edc4f3b28e8af"), "name" : "akiko", "tags" : [ "web", "mobile" ] }
+> db.us[3G[Jdb.users[11G.co[3G[Jdb.users.co[14G
+db.users.constructor             db.users.copyTo(
+db.users.convertToCapped(        db.users.count(
+db.users.convertToSingleObject(
+> [3G[Jdb.users.co[14Gu[3G[Jdb.users.count([18G)[3G[Jdb.users.count()[19G
+2
+> db.us[3G[Jdb.users[11G.remo[3G[Jdb.users.remove([19G)[3G[Jdb.users.remove()[20G
+2014-09-18T08:16:07.812+0900 remove needs a query at src/mongo/shell/collection.js:299
+> [3G[Jdb.users.remove()[20G[3G[Jdb.users.count()[19G[3G[Jdb.users.find()[18G[3G[Jdb.users.count()[19G[3G[Jdb.users.count()[19G
+2
+> [3G[Jdb.users.count()[19G[3G[Jdb.users.remove()[20G[3G[Jdb.users.remove([19G[3G[Jdb.users.remove([19G
+Display all 181 possibilities? (y or n)
+Array(                       getPrototypeOf
+BinData(                     hasOwnProperty(
+Boolean(                     help(
+BulkWriteError(              hex_md5(
+BulkWriteResult(             hostname(
+DB(                          interpreterVersion(
+DBCollection(                isExtensible
+DBCommandCursor(             isFinite(
+DBPointer(                   isFrozen
+DBQuery(                     isKeyTooLarge(
+DBRef(                       isMasterStatePrompt(
+Date(                        isNaN(
+Geo                          isNumber(
+HexData(                     isObject(
+ISODate(                     isSealed
+Infinity                     isString(
+JSON                         jsTest
+MD5(                         jsTestFile(
+MR                           jsTestLog(
+Map(                         jsTestName(
+MapReduceResult(             jsTestOptions(
+Math                         jsTestPath(
+MaxKey                       keys
+MinKey                       listFiles(
+Mongo(                       load(
+MongoRunner(                 ls(
+MongodRunner(                md5sumFile(
+NaN                          mkdir(
+Number(                      module
+NumberInt(                   myPort(
+NumberLong(                  null
+ObjectId(                    parseFloat(
+PlanCache(                   parseInt(
+Random(                      pathExists(
+RegExp(                      preventExtensions
+ReplSetBridge(               print(
+ReplSetTest(                 printShardingSizes(
+ReplTest(                    printShardingStatus(
+ShardingTest(                printStackTrace(
+String(                      printjson(
+--More--        > [3G[Jdb.users.remove([19G);[3G[Jdb.users.remove();[21G
+2014-09-18T08:16:36.912+0900 remove needs a query at src/mongo/shell/collection.js:299
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=
+
+Script done on Thu Sep 18 08:17:37 2014
