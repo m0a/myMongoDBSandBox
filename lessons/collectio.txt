@@ -1,0 +1,345 @@
+Script started on Thu Sep 18 07:52:50 2014
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=lls -la[?1l>
+]2;ls -G -la]1;lstotal 8
+drwxr-xr-x  3 m0a  staff  102  9 18 07:52 [1m[36m.[39;49m[0m
+drwxr-xr-x  4 m0a  staff  136  9 18 07:51 [1m[36m..[39;49m[0m
+-rw-r--r--  1 m0a  staff  367  9 18 07:53 runlog.txt
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo mydb[?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+2014-09-18T07:54:23.646+0900 warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2014-09-18T07:54:23.649+0900 Error: couldn't connect to server 127.0.0.1:27017 (127.0.0.1), connection attempt failed at src/mongo/shell/mongo.js:146
+exception: connect failed
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo[?1l>
+]2;mongo]1;mongoMongoDB shell version: 2.6.4
+connecting to: test
+2014-09-18T07:54:53.342+0900 warning: Failed to connect to 127.0.0.1:27017, reason: errno:61 Connection refused
+2014-09-18T07:54:53.344+0900 Error: couldn't connect to server 127.0.0.1:27017 (127.0.0.1), connection attempt failed at src/mongo/shell/mongo.js:146
+exception: connect failed
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=bbrew info mongodb[?1l>
+]2;brew info mongodb]1;brewmongodb: stable 2.6.4 (bottled), devel 2.7.6, HEAD
+http://www.mongodb.org/
+/usr/local/Cellar/mongodb/2.6.4_1 (17 files, 320M) *
+  Poured from bottle
+From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/mongodb.rb
+[1;34m==>[1;39m Dependencies[0m
+Build: scons [1;32m✔[0m
+Optional: boost [1;32m✔[0m, openssl [1;32m✔[0m
+[1;34m==>[1;39m Options[0m
+--with-boost
+	Compile using installed boost, not the version shipped with mongodb
+--with-openssl
+	Build with openssl support
+--devel
+	install development version 2.7.6
+--HEAD
+	install HEAD version
+[1;34m==>[1;39m Caveats[0m
+To have launchd start mongodb at login:
+    ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+Then to load mongodb now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+Or, if you don't want/need launchctl, you can just run:
+    mongod --config /usr/local/etc/mongod.conf
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=lln -sfv /usr/local/opt/mongodb/*.plist ~/Library/L [KaaunchAgents[?1l>
+]2;ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents]1;ln/Users/m0a/Library/LaunchAgents/homebrew.mxcl.mongodb.plist -> /usr/local/opt/mongodb/homebrew.mxcl.mongodb.plist
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=llaunchctl load ~/Library/LaunchAgents/homebrew.mxc [Kll.mongodb.plist[?1l>
+]2;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist]1;launchctl[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongod --config /usr/local/etc/mongod.conf[?1l>
+]2;mongod --config /usr/local/etc/mongod.conf]1;mongod[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongod
+[J[0mmongod     [Jmongodump[J[A[0m[27m[24m[0m[27m[24m[39m[49m[32Cmongod[K[0m[27m[24m[39m[49m --config /us
+[J[J[1;31mUsers[0m/  [J[1;31musr[0m/  [J[A[0m[27m[24m[0m[27m[24m[39m[49m[32Cmongod --config /us[K[0m[27m[24m[39m[49mr[1m/[0m[0m/local[1m/[0m[0m/etc[1m/[0m[0m/mongod.conf[1m [0m[0m [?1l>
+[J]2;mongod --config /usr/local/etc/mongod.conf]1;mongod[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo mydb[?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	http://docs.mongodb.org/
+Questions? Try the support group
+	http://groups.google.com/group/mongodb-user
+> db.createCollection(''[3G[Jdb.createCollection(''[24G[3G[Jdb.createCollection('t'[25G[3G[Jdb.createCollection('te'[26G[3G[Jdb.createCollection('tes'[27G[3G[Jdb.createCollection('test'[28G[3G[Jdb.createCollection('test'[29G)[3G[Jdb.createCollection('test')[30G
+{ "ok" : 1 }
+> show dbs[3G[Jshow dbs[11G
+admin  (empty)
+local  0.078GB
+mydb   0.078GB
+> use local[3G[Juse local[12G
+switched to db local
+> use mydb2[3G[Juse mydb2[12G
+switched to db mydb2
+> use my[3G[Juse m[8G[3G[Juse [7G[3G[Juse[6G[3G[Jus[5G[3G[Ju[4G[3G[J[3Gshow dbs;[3G[Jshow dbs;[12G
+admin  (empty)
+local  0.078GB
+mydb   0.078GB
+> use mydb[3G[Juse mydb[11G
+switched to db mydb
+> db.fropDatabase();[3G[Jdb.fropDatabase();[21G
+2014-09-18T07:58:46.087+0900 TypeError: Property 'fropDatabase' of object mydb is not a function
+> [3G[Jdb.fropDatabase();[21G[3G[Jdb.fropDatabase();[3G[3G[Jdb.fropDatabase();[4G[3G[Jdb.fropDatabase();[5G[3G[Jdb.fropDatabase();[6G[3G[Jdb.fropDatabase();[7G[3G[Jdb.ropDatabase();[6G[3G[Jdb.dropDatabase();[7G[3G[Jdb.dropDatabase();[21G
+{ "dropped" : "mydb", "ok" : 1 }
+> [3G[J[3G
+> [3G[J[3G
+> show dbs;[3G[Jshow dbs;[12G
+admin  (empty)
+local  0.078GB
+> [3G[J[3G
+> [3G[J[3G
+> use mydb[3G[Juse mydb[11G
+switched to db mydb
+> [3G[Juse mydb[11G[3G[Jshow dbs;[12G[3G[Jdb.dropDatabase();[21G[3G[Jdb.fropDatabase();[21G[3G[Juse mydb[11G[3G[Jshow dbs;[12G[3G[Juse mydb2[12G[3G[Juse local[12G[3G[Jshow dbs[11G[3G[Jdb.createCollection('test')[30G[3G[Jdb.createCollection('test')[30G
+{ "ok" : 1 }
+> show dbs[3G[Jshow dbs[11G
+admin  (empty)
+local  0.078GB
+mydb   0.078GB
+> db.createCollection('col');[3G[Jdb.createCollection('col');[30G
+{ "ok" : 1 }
+> show dbs;[3G[Jshow dbs;[12G
+admin  (empty)
+local  0.078GB
+mydb   0.078GB
+> use mydb[3G[Juse mydb[11G
+switched to db mydb
+> show collections;[3G[Jshow collections;[20G
+col
+system.indexes
+test
+> db.col.renameCollection(''[3G[Jdb.col.renameCollection(''[28G[3G[Jdb.col.renameCollection('p'[29G[3G[Jdb.col.renameCollection('pe'[30G[3G[Jdb.col.renameCollection('per'[31G[3G[Jdb.col.renameCollection('pers'[32G[3G[Jdb.col.renameCollection('perso'[33G[3G[Jdb.col.renameCollection('person'[34G[3G[Jdb.col.renameCollection('persons'[35G[3G[Jdb.col.renameCollection('persons'[36G);[3G[Jdb.col.renameCollection('persons');[38G
+{ "ok" : 1 }
+> [3G[Jdb.col.renameCollection('persons');[38G[3G[Jshow collections;[20G[3G[Jshow collections;[20G
+persons
+system.indexes
+test
+> db.persons.drop();[3G[Jdb.persons.drop();[21G
+true
+> [3G[Jdb.persons.drop();[21G[3G[Jshow collections;[20G[3G[Jshow collections;[20G
+system.indexes
+test
+> db.test.drop();[3G[Jdb.test.drop();[18G
+true
+> show colections[3G[Jshow colections[18G
+2014-09-18T08:03:43.346+0900 don't know how to show [colections] at src/mongo/shell/utils.js:729
+> [3G[J[3G[1G[J(reverse-i-search)`': [23G[1G[J(reverse-i-search)`s': show colections[38G[1G[J(reverse-i-search)`sh': show colections[25G[1G[J(reverse-i-search)`sho': show colections[26G[1G[J(reverse-i-search)`show': show colections[27G[1G[J(reverse-i-search)`show ': show colections[28G[1G[J(reverse-i-search)`show c': show colections[29G[1G[J(reverse-i-search)`show co': show colections[30G[1G[J> show colections[3G[3G[Jshow colections[4G[3G[Jshow colections[18G
+2014-09-18T08:03:55.677+0900 don't know how to show [colections] at src/mongo/shell/utils.js:729
+> [3G[Jshow colections[18G[3G[Jdb.test.drop();[18G[3G[Jshow collections;[20G[3G[Jdb.persons.drop();[21G[3G[Jshow collections;[20G[3G[Jshow collections;[20G
+system.indexes
+> [3G[J[3G
+> [3G[J[3G
+> db.createCollection('COL')[3G[Jdb.createCollection('COL')[29G
+{ "ok" : 1 }
+> show collections[3G[Jshow collections[19G
+COL
+system.indexes
+> dbCOL.renameCollection()[3G[JdbCOL.renameCollection[1;34m([0m)[26G[3G[JdbCOL.renameCollection[1;34m([0m')[27G[3G[JdbCOL.renameCollection[1;34m([0m'')[28G[3G[JdbCOL.renameCollection('')[27G[3G[JdbCOL.renameCollection('n')[28G[3G[JdbCOL.renameCollection('ne')[29G[3G[JdbCOL.renameCollection('new')[30G[3G[JdbCOL.renameCollection('ne')[29G[3G[JdbCOL.renameCollection('n')[28G[3G[JdbCOL.renameCollection('')[27G[3G[JdbCOL.renameCollection('r')[28G[3G[JdbCOL.renameCollection('re')[29G[3G[JdbCOL.renameCollection('ren')[30G[3G[JdbCOL.renameCollection('rena')[31G[3G[JdbCOL.renameCollection('renam')[32G[3G[JdbCOL.renameCollection('rename')[33G[3G[JdbCOL.renameCollection('renameC')[34G[3G[JdbCOL.renameCollection('renameCO')[35G[3G[JdbCOL.renameCollection('renameCOL')[36G[3G[JdbCOL.renameCollection[1;34m([0m'renameCOL')[37G[3G[JdbCOL.renameCollection('renameCOL')[38G[3G[JdbCOL.renameCollection('renameCOL')[38G
+2014-09-18T08:04:59.209+0900 ReferenceError: dbCOL is not defined
+> [3G[JdbCOL.renameCollection('renameCOL')[38G[3G[JdbCOL.renameCollection('renameCOL')[3G[3G[JdbCOL.renameCollection('renameCOL')[4G[3G[JdbCOL.renameCollection('renameCOL')[5G[3G[Jdb.COL.renameCollection('renameCOL')[6G[3G[Jdb.COL.renameCollection('renameCOL')[39G
+{ "ok" : 1 }
+> [3G[Jdb.COL.renameCollection('renameCOL')[39G[3G[JdbCOL.renameCollection('renameCOL')[38G[3G[Jshow collections[19G[3G[Jshow collections[19G
+renameCOL
+system.indexes
+> db.renameCOL.[3G[Jdb.renameCOL[15G[3G[Jdb.renameCO[14G[3G[Jdb.renameC[13G[3G[Jdb.rename[12G[3G[Jdb.renam[11G[3G[Jdb.rena[10G[3G[Jdb.ren[9G[3G[Jdb.renameCOL[15G[3G[Jdb.renameCO[14G[3G[Jdb.renameC[13G[3G[Jdb.rename[12G[3G[Jdb.renam[11G[3G[Jdb.rena[10G[3G[Jdb.ren[9G[3G[Jdb.re[8G[3G[Jdb.r[7G[3G[Jdb.[6G[3G[Jdb[5G.[3G[Jdb.[6G
+db.addUser(                    db.group(
+db.adminCommand(               db.groupcmd(
+db.auth(                       db.groupeval(
+db.changeUserPassword(         db.hasOwnProperty(
+db.cloneCollection(            db.help(
+db.cloneDatabase(              db.hostInfo(
+db.commandHelp(                db.isMaster(
+db.constructor                 db.killOP(
+db.copyDatabase(               db.killOp(
+db.createCollection(           db.listCommands(
+db.createRole(                 db.loadServerScripts(
+db.createUser(                 db.logout(
+db.currentOP(                  db.printCollectionStats(
+db.currentOp(                  db.printReplicationInfo(
+db.dbEval(                     db.printShardingStatus(
+db.dropAllRoles(               db.printSlaveReplicationInfo(
+db.dropAllUsers(               db.propertyIsEnumerable(
+db.dropDatabase(               db.prototype
+db.dropRole(                   db.removeUser(
+db.dropUser(                   db.renameCOL
+db.eval(                       db.repairDatabase(
+db.forceError(                 db.resetError(
+db.fsyncLock(                  db.revokePrivilegesFromRole(
+db.fsyncUnlock(                db.revokeRolesFromRole(
+db.getCollection(              db.revokeRolesFromUser(
+db.getCollectionNames(         db.runCommand(
+db.getLastError(               db.serverBits(
+db.getLastErrorCmd(            db.serverBuildInfo(
+db.getLastErrorObj(            db.serverCmdLineOpts(
+db.getMongo(                   db.serverStatus(
+db.getName(                    db.setProfilingLevel(
+db.getPrevError(               db.setSlaveOk(
+db.getProfilingLevel(          db.setWriteConcern(
+db.getProfilingStatus(         db.shutdownServer(
+db.getReplicationInfo(         db.stats(
+db.getRole(                    db.system.indexes
+db.getRoles(                   db.toLocaleString(
+db.getSiblingDB(               db.toString(
+db.getSisterDB(                db.tojson(
+db.getSlaveOk(                 db.unsetWriteConcern(
+db.getUser(                    db.updateRole(
+--More--        > [3G[Jdb.[6Gre[3G[Jdb.re[8G
+db.removeUser(                db.revokePrivilegesFromRole(
+db.renameCOL                  db.revokeRolesFromRole(
+db.repairDatabase(            db.revokeRolesFromUser(
+db.resetError(
+> [3G[Jdb.re[8Gna[3G[Jdb.renameCOL[15G.[3G[Jdb.renameCOL.[16G
+db.renameCOL.aggregate(
+db.renameCOL.clean(
+db.renameCOL.constructor
+db.renameCOL.convertToCapped(
+db.renameCOL.convertToSingleObject(
+db.renameCOL.copyTo(
+db.renameCOL.count(
+db.renameCOL.createIndex(
+db.renameCOL.dataSize(
+db.renameCOL.diskStorageStats(
+db.renameCOL.distinct(
+db.renameCOL.drop(
+db.renameCOL.dropIndex(
+db.renameCOL.dropIndexes(
+db.renameCOL.ensureIndex(
+db.renameCOL.exists(
+db.renameCOL.find(
+db.renameCOL.findAndModify(
+db.renameCOL.findOne(
+db.renameCOL.getCollection(
+db.renameCOL.getDB(
+db.renameCOL.getDiskStorageStats(
+db.renameCOL.getFullName(
+db.renameCOL.getIndexKeys(
+db.renameCOL.getIndexSpecs(
+db.renameCOL.getIndexStats(
+db.renameCOL.getIndexes(
+db.renameCOL.getIndices(
+db.renameCOL.getMongo(
+db.renameCOL.getName(
+db.renameCOL.getPagesInRAM(
+db.renameCOL.getPlanCache(
+db.renameCOL.getQueryOptions(
+db.renameCOL.getShardDistribution(
+db.renameCOL.getShardVersion(
+db.renameCOL.getSlaveOk(
+db.renameCOL.getSplitKeysForChunks(
+db.renameCOL.getWriteConcern(
+db.renameCOL.group(
+db.renameCOL.groupcmd(
+db.renameCOL.hasOwnProperty(
+--More--        > [3G[Jdb.renameCOL.[16Gdro[3G[Jdb.renameCOL.drop[20G[3G[Jdb.renameCOL.drop[20G
+db.renameCOL.drop(         db.renameCOL.dropIndexes(
+db.renameCOL.dropIndex(
+> [3G[Jdb.renameCOL.drop[20G([3G[Jdb.renameCOL.drop([21G
+Display all 180 possibilities? (y or n)
+Array(                       getOwnPropertyNames
+BinData(                     getPrototypeOf
+Boolean(                     hasOwnProperty(
+BulkWriteError(              help(
+BulkWriteResult(             hex_md5(
+DB(                          hostname(
+DBCollection(                interpreterVersion(
+DBCommandCursor(             isExtensible
+DBPointer(                   isFinite(
+DBQuery(                     isFrozen
+DBRef(                       isKeyTooLarge(
+Date(                        isMasterStatePrompt(
+Geo                          isNaN(
+HexData(                     isNumber(
+ISODate(                     isObject(
+Infinity                     isSealed
+JSON                         isString(
+MD5(                         jsTest
+MR                           jsTestFile(
+Map(                         jsTestLog(
+MapReduceResult(             jsTestName(
+Math                         jsTestOptions(
+MaxKey                       jsTestPath(
+MinKey                       keys
+Mongo(                       listFiles(
+MongoRunner(                 load(
+MongodRunner(                ls(
+NaN                          md5sumFile(
+Number(                      mkdir(
+NumberInt(                   module
+NumberLong(                  myPort(
+ObjectId(                    null
+PlanCache(                   parseFloat(
+Random(                      parseInt(
+RegExp(                      pathExists(
+ReplSetBridge(               preventExtensions
+ReplSetTest(                 print(
+ReplTest(                    printShardingSizes(
+ShardingTest(                printShardingStatus(
+String(                      printStackTrace(
+SyncCCTest(                  printjson(
+--More--        > [3G[Jdb.renameCOL.drop([21G)[3G[Jdb.renameCOL.drop()[22G
+true
+> [3G[Jdb.renameCOL.drop()[22G[3G[Jshow collections[19G[3G[Jshow collections[19G
+system.indexes
+> [3G[J[3G
+> [3G[J[3G
+> show [3G[Jshow [8G
+Display all 180 possibilities? (y or n)
+Array(                       getOwnPropertyNames
+BinData(                     getPrototypeOf
+Boolean(                     hasOwnProperty(
+BulkWriteError(              help(
+BulkWriteResult(             hex_md5(
+DB(                          hostname(
+DBCollection(                interpreterVersion(
+DBCommandCursor(             isExtensible
+DBPointer(                   isFinite(
+DBQuery(                     isFrozen
+DBRef(                       isKeyTooLarge(
+Date(                        isMasterStatePrompt(
+Geo                          isNaN(
+HexData(                     isNumber(
+ISODate(                     isObject(
+Infinity                     isSealed
+JSON                         isString(
+MD5(                         jsTest
+MR                           jsTestFile(
+Map(                         jsTestLog(
+MapReduceResult(             jsTestName(
+Math                         jsTestOptions(
+MaxKey                       jsTestPath(
+MinKey                       keys
+Mongo(                       listFiles(
+MongoRunner(                 load(
+MongodRunner(                ls(
+NaN                          md5sumFile(
+Number(                      mkdir(
+NumberInt(                   module
+NumberLong(                  myPort(
+ObjectId(                    null
+PlanCache(                   parseFloat(
+Random(                      parseInt(
+RegExp(                      pathExists(
+ReplSetBridge(               preventExtensions
+ReplSetTest(                 print(
+ReplTest(                    printShardingSizes(
+ShardingTest(                printShardingStatus(
+String(                      printStackTrace(
+SyncCCTest(                  printjson(
+--More--        > [3G[Jshow [8Gco[3G[Jshow co[10G
+compare(               connect(               constructor
+compareOn(             connectionURLTheSame(  copyDbpath(
+> [3G[Jshow co[10Gll[3G[Jshow col[11G[3G[Jshow co[10G[3G[Jshow c[9G[3G[Jshow [8G[3G[Jshow[7G[3G[Jsho[6G[3G[Jsh[5G[3G[Js[4G[3G[J[3Gshow --help[3G[Jshow --help[14G
+2014-09-18T08:06:09.215+0900 don't know how to show [--help] at src/mongo/shell/utils.js:729
+> [3G[Jshow --help[14G[3G[Jshow --hel[13G[3G[Jshow --he[12G[3G[Jshow --h[11G[3G[Jshow --[10G[3G[Jshow -[9G[3G[Jshow [8G[3G[Jshow [8G
+2014-09-18T08:06:12.266+0900 don't know how to show [] at src/mongo/shell/utils.js:729
+> [3G[J[3G
+> [3G[J[3G
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=
+
+Script done on Thu Sep 18 08:06:44 2014
