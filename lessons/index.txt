@@ -1,0 +1,197 @@
+Script started on Thu Sep 18 08:47:47 2014
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo
+[0mmongo         mongoexport   mongooplog    mongos        mongotop    
+mongod        mongofiles    mongoperf     mongosniff                
+[Jmongodump     [Jmongoimport   [Jmongorestore  [Jmongostat     [J            [3A[0m[27m[24m[0m[27m[24m[39m[49m[30Cmongo[K[0m[27m[24m[39m[49m mydb[?1l>
+[J]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> db.us[3G[Jdb.users[11G.getI[3G[Jdb.users.getInd[18G[3G[Jdb.users.getInd[18G
+db.users.getIndexKeys(   db.users.getIndexStats(  db.users.getIndices(
+db.users.getIndexSpecs(  db.users.getIndexes(
+> [3G[Jdb.users.getInd[18Gi[3G[Jdb.users.getIndices([23G);[3G[Jdb.users.getIndices();[25G
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"name" : "_id_",
+		"ns" : "mydb.users"
+	}
+]
+> db.us[3G[Jdb.users[11G.ensu[3G[Jdb.users.ensureIndex([24G{}[3G[Jdb.users.ensureIndex([1;34m{[0m}[25G[3G[Jdb.users.ensureIndex([1;34m{[0ms}[26G[3G[Jdb.users.ensureIndex([1;34m{[0msc}[27G[3G[Jdb.users.ensureIndex([1;34m{[0msco}[28G[3G[Jdb.users.ensureIndex([1;34m{[0mscor}[29G[3G[Jdb.users.ensureIndex([1;34m{[0mscore}[30G[3G[Jdb.users.ensureIndex([1;34m{[0mscore:}[31G[3G[Jdb.users.ensureIndex([1;34m{[0mscore:1}[32G[3G[Jdb.users.ensureIndex({score:1}[33G);[3G[Jdb.users.ensureIndex({score:1});[35G
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"numIndexesAfter" : 2,
+	"ok" : 1
+}
+> [3G[Jdb.users.ensureIndex({score:1});[35G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.find({},{score:1}).sort({score:1})[46G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.getIndices();[25G
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"name" : "_id_",
+		"ns" : "mydb.users"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"score" : 1
+		},
+		"name" : "score_1",
+		"ns" : "mydb.users"
+	}
+]
+> db.us[3G[Jdb.users[11G.ensu[3G[Jdb.users.ensureIndex([24G{}[3G[Jdb.users.ensureIndex([1;34m{[0m}[25G[3G[Jdb.users.ensureIndex([1;34m{[0mn}[26G[3G[Jdb.users.ensureIndex([1;34m{[0mna}[27G[3G[Jdb.users.ensureIndex([1;34m{[0mnam}[28G[3G[Jdb.users.ensureIndex([1;34m{[0mname}[29G[3G[Jdb.users.ensureIndex([1;34m{[0mname:}[30G[3G[Jdb.users.ensureIndex([1;34m{[0mname:1}[31G[3G[Jdb.users.ensureIndex({name:1}[32G,{}[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0m}[34G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0mu}[35G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0mun}[36G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0muni}[37G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0muniq}[38G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0muniqu}[39G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0munique}[40G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0munique:}[41G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0munique:t}[42G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0munique:tr}[43G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0munique:tru}[44G[3G[Jdb.users.ensureIndex({name:1},[1;34m{[0munique:true}[45G[3G[Jdb.users.ensureIndex({name:1},{unique:true}[46G)[3G[Jdb.users.ensureIndex({name:1},{unique:true})[47G
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 2,
+	"numIndexesAfter" : 3,
+	"ok" : 1
+}
+> db.us[3G[Jdb.users[11G.in[3G[Jdb.users.in[14G
+db.users.indexStats(                 db.users.initializeUnorderedBulkOp(
+db.users.initializeOrderedBulkOp(    db.users.insert(
+> [3G[Jdb.users.in[14Gs[3G[Jdb.users.insert([19G{}[3G[Jdb.users.insert([1;34m{[0m}[20G[3G[Jdb.users.insert([1;34m{[0mn}[21G[3G[Jdb.users.insert([1;34m{[0mna}[22G[3G[Jdb.users.insert([1;34m{[0mnam}[23G[3G[Jdb.users.insert([1;34m{[0mname}[24G[3G[Jdb.users.insert([1;34m{[0mname:}[25G[3G[Jdb.users.insert([1;34m{[0mname:"}[26G[3G[Jdb.users.insert([1;34m{[0mname:""}[27G[3G[Jdb.users.insert({name:""}[26G[3G[Jdb.users.insert({name:"u"}[27G[3G[Jdb.users.insert({name:"us"}[28G[3G[Jdb.users.insert({name:"use"}[29G[3G[Jdb.users.insert({name:"user"}[30G[3G[Jdb.users.insert({name:"user-"}[31G[3G[Jdb.users.insert({name:"user-0"}[32G[3G[Jdb.users.insert([1;34m{[0mname:"user-0"}[33G[3G[Jdb.users.insert({name:"user-0"}[34G)[3G[Jdb.users.insert({name:"user-0"})[35G
+WriteResult({
+	"nInserted" : 0,
+	"writeError" : {
+		"code" : 11000,
+		"errmsg" : "insertDocument :: caused by :: 11000 E11000 duplicate key error index: mydb.users.$name_1  dup key: { : \"user-0\" }"
+	}
+})
+> [3G[Jdb.users.insert({name:"user-0"})[35G[3G[Jdb.users.insert[1;34m([0m{name:"user-0"})[34G[3G[Jdb.users.insert([1;34m{[0mname:"user-0"})[33G[3G[Jdb.users.insert({name:"user-0"})[32G[3G[Jdb.users.insert({name:"user-"})[31G[3G[Jdb.users.insert({name:"user"})[30G[3G[Jdb.users.insert({name:"use"})[29G[3G[Jdb.users.insert({name:"us"})[28G[3G[Jdb.users.insert({name:"u"})[27G[3G[Jdb.users.insert({name:""})[26G[3G[Jdb.users.insert({name:"m"})[27G[3G[Jdb.users.insert({name:"ma"})[28G[3G[Jdb.users.insert({name:"mak"})[29G[3G[Jdb.users.insert({name:"mako"})[30G[3G[Jdb.users.insert({name:"makot"})[31G[3G[Jdb.users.insert({name:"makoto"})[32G[3G[Jdb.users.insert({name:"makoto"})[35G
+WriteResult({
+	"nInserted" : 0,
+	"writeError" : {
+		"code" : 11000,
+		"errmsg" : "insertDocument :: caused by :: 11000 E11000 duplicate key error index: mydb.users.$name_1  dup key: { : \"makoto\" }"
+	}
+})
+> [3G[Jdb.users.insert({name:"makoto"})[35G[3G[Jdb.users.insert[1;34m([0m{name:"makoto"})[34G[3G[Jdb.users.insert([1;34m{[0mname:"makoto"})[33G[3G[Jdb.users.insert({name:"makoto"})[32G[3G[Jdb.users.insert({name:"makoto"})[31G[3G[Jdb.users.insert({name:"makoto"})[32G[3G[Jdb.users.insert({name:"makot"})[31G[3G[Jdb.users.insert({name:"mako"})[30G[3G[Jdb.users.insert({name:"mak"})[29G[3G[Jdb.users.insert({name:"ma"})[28G[3G[Jdb.users.insert({name:"m"})[27G[3G[Jdb.users.insert({name:""})[26G[3G[Jdb.users.insert({name:"s"})[27G[3G[Jdb.users.insert({name:"sa"})[28G[3G[Jdb.users.insert({name:"sag"})[29G[3G[Jdb.users.insert({name:"saga"})[30G[3G[Jdb.users.insert({name:"saga"})[33G
+WriteResult({ "nInserted" : 1 })
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.insert({name:"saga"})[33G
+WriteResult({
+	"nInserted" : 0,
+	"writeError" : {
+		"code" : 11000,
+		"errmsg" : "insertDocument :: caused by :: 11000 E11000 duplicate key error index: mydb.users.$name_1  dup key: { : \"saga\" }"
+	}
+})
+> [3G[J[3G
+> db.us[3G[Jdb.users[11G.ge[3G[Jdb.users.get[15GI[3G[Jdb.users.getInd[18G[3G[Jdb.users.getInd[18G
+db.users.getIndexKeys(   db.users.getIndexStats(  db.users.getIndices(
+db.users.getIndexSpecs(  db.users.getIndexes(
+> [3G[Jdb.users.getInd[18Gi[3G[Jdb.users.getIndices([23G);[3G[Jdb.users.getIndices();[25G
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"name" : "_id_",
+		"ns" : "mydb.users"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"score" : 1
+		},
+		"name" : "score_1",
+		"ns" : "mydb.users"
+	},
+	{
+		"v" : 1,
+		"unique" : true,
+		"key" : {
+			"name" : 1
+		},
+		"name" : "name_1",
+		"ns" : "mydb.users"
+	}
+]
+> db.us[3G[Jdb.users[11G.drop[3G[Jdb.users.drop[16G
+db.users.drop(         db.users.dropIndex(    db.users.dropIndexes(
+> [3G[Jdb.users.drop[16GI[3G[Jdb.users.dropIndex[21G({}[3G[Jdb.users.dropIndex([1;34m{[0m}[23G[3G[Jdb.users.dropIndex([1;34m{[0ms}[24G[3G[Jdb.users.dropIndex([1;34m{[0mso}[25G[3G[Jdb.users.dropIndex([1;34m{[0msoc}[26G[3G[Jdb.users.dropIndex([1;34m{[0msocr}[27G[3G[Jdb.users.dropIndex([1;34m{[0msocre}[28G[3G[Jdb.users.dropIndex([1;34m{[0msocre:}[29G[3G[Jdb.users.dropIndex([1;34m{[0msocre:"}[30G[3G[Jdb.users.dropIndex([1;34m{[0msocre:""}[31G[3G[Jdb.users.dropIndex({socre:""}[30G[3G[Jdb.users.dropIndex({socre:"s"}[31G[3G[Jdb.users.dropIndex({socre:"sc"}[32G[3G[Jdb.users.dropIndex({socre:"sco"}[33G[3G[Jdb.users.dropIndex({socre:"scor"}[34G[3G[Jdb.users.dropIndex({socre:"score"}[35G[3G[Jdb.users.dropIndex({socre:"score_"}[36G[3G[Jdb.users.dropIndex({socre:"score_1"}[37G[3G[Jdb.users.dropIndex([1;34m{[0msocre:"score_1"}[38G[3G[Jdb.users.dropIndex({socre:"score_1"}[39G)[3G[Jdb.users.dropIndex({socre:"score_1"})[40G
+{
+	"nIndexesWas" : 3,
+	"ok" : 0,
+	"errmsg" : "can't find index with key:{ socre: \"score_1\" }"
+}
+> [3G[Jdb.users.dropIndex({socre:"score_1"})[40G[3G[Jdb.users.dropIndex[1;34m([0m{socre:"score_1"})[39G[3G[Jdb.users.dropIndex([1;34m{[0msocre:"score_1"})[38G[3G[Jdb.users.dropIndex({socre:"score_1"})[37G[3G[Jdb.users.dropIndex({socre:"score_1"})[36G[3G[Jdb.users.dropIndex({socre:"score_1"})[35G[3G[Jdb.users.dropIndex({socre:"score_1"})[34G[3G[Jdb.users.dropIndex({socre:"score_1"})[33G[3G[Jdb.users.dropIndex({socre:"score_1"})[32G[3G[Jdb.users.dropIndex({socre:"score_1"})[31G[3G[Jdb.users.dropIndex({socre:"score_1"})[30G[3G[Jdb.users.dropIndex({socre:"score_1"})[29G[3G[Jdb.users.dropIndex({socre:"score_1"})[28G[3G[Jdb.users.dropIndex({socre:"score_1"})[27G[3G[Jdb.users.dropIndex({socre:"score_1"})[26G[3G[Jdb.users.dropIndex({socre:"score_1"})[27G[3G[Jdb.users.dropIndex({socre:"score_1"})[28G[3G[Jdb.users.dropIndex({socr:"score_1"})[27G[3G[Jdb.users.dropIndex({soc:"score_1"})[26G[3G[Jdb.users.dropIndex({so:"score_1"})[25G[3G[Jdb.users.dropIndex({s:"score_1"})[24G[3G[Jdb.users.dropIndex({sc:"score_1"})[25G[3G[Jdb.users.dropIndex({sco:"score_1"})[26G[3G[Jdb.users.dropIndex({scor:"score_1"})[27G[3G[Jdb.users.dropIndex({score:"score_1"})[28G[3G[Jdb.users.dropIndex({score:"score_1"})[40G
+{
+	"nIndexesWas" : 3,
+	"ok" : 0,
+	"errmsg" : "can't find index with key:{ score: \"score_1\" }"
+}
+> [3G[Jdb.users.dropIndex({score:"score_1"})[40G[3G[Jdb.users.dropIndex[1;34m([0m{score:"score_1"})[39G[3G[Jdb.users.dropIndex([1;34m{[0mscore:"score_1"})[38G[3G[Jdb.users.dropIndex([1;34m{[0mscore:"score_1})[37G[3G[Jdb.users.dropIndex({score:"score_1})[36G[3G[Jdb.users.dropIndex({score:"score_1})[35G[3G[Jdb.users.dropIndex({score:"score_1})[34G[3G[Jdb.users.dropIndex({score:"score_1})[33G[3G[Jdb.users.dropIndex({score:"score_1})[32G[3G[Jdb.users.dropIndex({score:"score_1})[31G[3G[Jdb.users.dropIndex({score:"score_1})[30G[3G[Jdb.users.dropIndex({score:score_1})[29G[3G[Jdb.users.dropIndex({score:score_1})[38G
+2014-09-18T08:53:10.242+0900 ReferenceError: score_1 is not defined
+> [3G[J[3G
+> [3G[Jdb.users.dropIndex({score:score_1})[38G[3G[Jdb.users.dropIndex[1;34m([0m{score:score_1})[37G[3G[Jdb.users.dropIndex([1;34m{[0mscore:score_1})[36G[3G[Jdb.users.dropIndex({score:score_1})[35G[3G[Jdb.users.dropIndex({score:score1})[34G[3G[Jdb.users.dropIndex({score:scor1})[33G[3G[Jdb.users.dropIndex({score:sco1})[32G[3G[Jdb.users.dropIndex({score:sc1})[31G[3G[Jdb.users.dropIndex({score:s1})[30G[3G[Jdb.users.dropIndex({score:1})[29G[3G[Jdb.users.dropIndex([1;34m{[0mscore:1})[30G[3G[Jdb.users.dropIndex[1;34m([0m{score:1})[31G[3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.dropIndex({score:1})[32G
+{ "nIndexesWas" : 3, "ok" : 1 }
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.dropIndex({score:score_1})[38G[3G[Jdb.users.dropIndex({score:"score_1"})[40G[3G[Jdb.users.dropIndex({socre:"score_1"})[40G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.getIndices();[25G
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"name" : "_id_",
+		"ns" : "mydb.users"
+	},
+	{
+		"v" : 1,
+		"unique" : true,
+		"key" : {
+			"name" : 1
+		},
+		"name" : "name_1",
+		"ns" : "mydb.users"
+	}
+]
+> [3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.dropIndex({score:score_1})[38G[3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.dropIndex[1;34m([0m{score:1})[31G[3G[Jdb.users.dropIndex([1;34m{[0mscore:1})[30G[3G[Jdb.users.dropIndex[1;34m([0m{score:1})[31G[3G[Jdb.users.dropIndex([1;34m{[0mscore:1)[30G[3G[Jdb.users.dropIndex([1;34m{[0mscore:)[29G[3G[Jdb.users.dropIndex([1;34m{[0mscore)[28G[3G[Jdb.users.dropIndex([1;34m{[0mscor)[27G[3G[Jdb.users.dropIndex([1;34m{[0msco)[26G[3G[Jdb.users.dropIndex([1;34m{[0msc)[25G[3G[Jdb.users.dropIndex([1;34m{[0ms)[24G[3G[Jdb.users.dropIndex([1;34m{[0m)[23G[3G[Jdb.users.dropIndex[1;34m([0m)[22G[3G[Jdb.users.dropIndex[1;34m([0m")[23G[3G[Jdb.users.dropIndex[1;34m([0m"")[24G[3G[Jdb.users.dropIndex("")[23G[3G[Jdb.users.dropIndex("n")[24G[3G[Jdb.users.dropIndex("na")[25G[3G[Jdb.users.dropIndex("nam")[26G[3G[Jdb.users.dropIndex("name")[27G[3G[Jdb.users.dropIndex("name_")[28G[3G[Jdb.users.dropIndex("name_1")[29G[3G[Jdb.users.dropIndex("name_1")[31G
+{ "nIndexesWas" : 2, "ok" : 1 }
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.dropIndex("name_1")[31G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.getIndices();[25G
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"name" : "_id_",
+		"ns" : "mydb.users"
+	}
+]
+> [3G[J[3G
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex("name_1")[31G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.dropIndex({score:score_1})[38G[3G[Jdb.users.dropIndex({score:"score_1"})[40G[3G[Jdb.users.dropIndex({socre:"score_1"})[40G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.insert({name:"makoto"})[35G[3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.insert({name:"saga"})[33G
+WriteResult({ "nInserted" : 1 })
+> [3G[J[3G
+> [3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.insert({name:"saga"})[33G
+WriteResult({ "nInserted" : 1 })
+> [3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex("name_1")[31G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.dropIndex({score:score_1})[38G[3G[Jdb.users.dropIndex({score:"score_1"})[40G[3G[Jdb.users.dropIndex({socre:"score_1"})[40G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.insert({name:"makoto"})[35G[3G[Jdb.users.insert({name:"user-0"})[35G[3G[Jdb.users.insert({name:"makoto"})[35G[3G[Jdb.users.insert({name:"saga"})[33G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex({socre:"score_1"})[40G[3G[Jdb.users.dropIndex({score:"score_1"})[40G[3G[Jdb.users.dropIndex({score:score_1})[38G[3G[Jdb.users.dropIndex({score:1})[32G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.dropIndex("name_1")[31G[3G[Jdb.users.getIndices();[25G[3G[Jdb.users.insert({name:"saga"})[33G[3G[J[3G[3G[J[3G[1G[J(reverse-i-search)`': [23G[1G[J(reverse-i-search)`d': db.users.insert({name:"saga"})[24G[1G[J(reverse-i-search)`db': db.users.insert({name:"saga"})[25G[1G[J(reverse-i-search)`db.': db.users.insert({name:"saga"})[26G[1G[J(reverse-i-search)`db.u': db.users.insert({name:"saga"})[27G[1G[J(reverse-i-search)`db.us': db.users.insert({name:"saga"})[28G[1G[J(reverse-i-search)`db.use': db.users.insert({name:"saga"})[29G[1G[J(reverse-i-search)`db.user': db.users.insert({name:"saga"})[30G[1G[J(reverse-i-search)`db.users': db.users.insert({name:"saga"})[31G[1G[J(reverse-i-search)`db.users.': db.users.insert({name:"saga"})[32G[1G[J(reverse-i-search)`db.users.e': db.users.ensureIndex({name:1},{unique:true})[33G[1G[J(reverse-i-search)`db.users.en': db.users.ensureIndex({name:1},{unique:true})[34G[1G[J> db.users.ensureIndex({name:1},{unique:true})[3G[3G[Jdb.users.ensureIndex({name:1},{unique:true})[4G[3G[Jdb.users.ensureIndex({name:1},{unique:true})[47G
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"ok" : 0,
+	"errmsg" : "E11000 duplicate key error index: mydb.users.$name_1  dup key: { : \"saga\" }",
+	"code" : 11000
+}
+> [3G[J[3G
+> [3G[J[3G
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=
+
+Script done on Thu Sep 18 08:54:47 2014
