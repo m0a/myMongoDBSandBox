@@ -1,0 +1,82 @@
+Script started on Thu Sep 18 10:04:32 2014
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmogenerator[1m [0m[0m n[12D            [12Dmmongo mydb[?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> show dbs[3G[Jshow dbs[11G
+admin  (empty)
+local  0.078GB
+mydb   0.078GB
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo
+[0mmongo         mongoexport   mongooplog    mongos        mongotop    
+mongod        mongofiles    mongoperf     mongosniff                
+[Jmongodump     [Jmongoimport   [Jmongorestore  [Jmongostat     [J            [3A[0m[27m[24m[0m[27m[24m[39m[49m[30Cmongo[K[0m[27m[24m[39m[49mdump[1m [0m[0m -d mydn b[?1l>
+[J]2;mongodump -d mydb]1;mongodumpconnected to: 127.0.0.1
+2014-09-18T10:05:33.625+0900 DATABASE: mydb	 to 	dump/mydb
+2014-09-18T10:05:33.627+0900 	mydb.system.indexes to dump/mydb/system.indexes.bson
+2014-09-18T10:05:33.628+0900 		 1 documents
+2014-09-18T10:05:33.628+0900 	mydb.users to dump/mydb/users.bson
+2014-09-18T10:05:33.630+0900 		 1 documents
+2014-09-18T10:05:33.630+0900 	Metadata for mydb.users to dump/mydb/users.metadata.json
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=lll[?1l>
+]2;ls -G -lh]1;lltotal 504
+-rw-r--r--  1 m0a  staff    55K  9 18 08:46 and_or.txt
+-rw-r--r--  1 m0a  staff   3.0K  9 18 10:05 backup.txt
+-rw-r--r--  1 m0a  staff    23K  9 18 08:06 collectio.txt
+-rw-r--r--  1 m0a  staff   5.7K  9 18 08:17 document.txt
+drwxr-xr-x  3 m0a  staff   102B  9 18 10:05 [1m[36mdump[39;49m[0m
+-rw-r--r--  1 m0a  staff    17K  9 18 08:54 index.txt
+-rw-r--r--  1 m0a  staff    23K  9 18 08:29 js.txt
+-rw-r--r--  1 m0a  staff    88K  9 18 10:03 multi.txt
+-rw-r--r--  1 m0a  staff    21K  9 18 09:01 update.txt
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=llmongodump -d mydb[12D mydb       [?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> db.us[3G[Jdb.users[11G.remo[3G[Jdb.users.remove([19G{})[3G[Jdb.users.remove({})[22G
+WriteResult({ "nRemoved" : 1 })
+> db.us[3G[Jdb.users[11G.fin[3G[Jdb.users.find[16G()[3G[Jdb.users.find()[18G
+> ;[3G[J;[4G
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mongo mydb[?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> show[3G[Jsho[6G[3G[Jsh[5G[3G[Js[4G[3G[J[3Gshow collections[3G[Jshow collections[19G
+system.indexes
+users
+> db.us[3G[Jdb.users[11G.fi[3G[Jdb.users.find[16G()[3G[Jdb.users.find[1;34m([0m)[17G[3G[Jdb.users.find([1;34m{[0m)[18G[3G[Jdb.users.find[1;34m([0m{})[19G[3G[Jdb.users.find({})[20G[3G[Jdb.users.find({})[20G
+> ;[3G[J;[4G
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo
+[0mmongo         mongoexport   mongooplog    mongos        mongotop    
+mongod        mongofiles    mongoperf     mongosniff                
+[Jmongodump     [Jmongoimport   [Jmongorestore  [Jmongostat     [J            [3A[0m[27m[24m[0m[27m[24m[39m[49m[30Cmongo[K[0m[27m[24m[39m[49mrestore[1m [0m[0m --drop[?1l>
+[J]2;mongorestore --drop]1;mongorestoreconnected to: 127.0.0.1
+2014-09-18T10:07:25.152+0900 dump/mydb/users.bson
+2014-09-18T10:07:25.152+0900 	going into namespace [mydb.users]
+2014-09-18T10:07:25.152+0900 	 dropping
+1 objects found
+2014-09-18T10:07:25.157+0900 	Creating index: { key: { _id: 1 }, name: "_id_", ns: "mydb.users" }
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongod
+[J[0mmongod     [Jmongodump[J[A[0m[27m[24m[0m[27m[24m[39m[49m[30Cmongod[K[0m[27m[24m[39m[49mb
+[J[A[37C   o mydb[?1l>
+[J]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> [3G[J;[4G[3G[Jdb.users.find({})[20G[3G[Jdb.users.find({})[20G
+{ "_id" : ObjectId("541a2f0e45e201afac2485e4"), "name" : "taguchi", "team" : "dotinstall", "score" : 420 }
+> [3G[J[3G
+> [3G[J[3G
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=
+
+Script done on Thu Sep 18 10:07:55 2014
