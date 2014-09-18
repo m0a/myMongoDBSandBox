@@ -1,0 +1,455 @@
+Script started on Thu Sep 18 09:02:29 2014
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=mmongo mydb[?1l>
+]2;mongo mydb]1;mongoMongoDB shell version: 2.6.4
+connecting to: mydb
+> db.f[3G[Jdb.[6Gus[3G[Jdb.users[11G.f[3G[Jdb.users.[12Gdrop[3G[Jdb.users.drop[16G
+db.users.drop(         db.users.dropIndex(    db.users.dropIndexes(
+> [3G[Jdb.users.drop[16G()[3G[Jdb.users.drop()[18G
+true
+> db.us[3G[Jdb.u[7Gse[3G[Jdb.us[8G[3G[Jdb.u[7G[3G[Jdb.[6Guser[3G[Jdb.use[9G[3G[Jdb.us[8G[3G[Jdb.u[7G[3G[Jdb.[6G[3G[Jdb[5G[3G[Jd[4G[3G[J[3Gdb.cl[3G[Jdb.clone[11G[3G[Jdb.clon[10G[3G[Jdb.clo[9G[3G[Jdb.cl[8G[3G[Jdb.c[7G[3G[Jdb.[6G[3G[Jdb[5G[3G[Jd[4G[3G[J[3Gshoew[3G[Jshoe[7G[3G[Jsho[6Gw collections[3G[Jshow collections[19G
+system.indexes
+> [3G[J[3G
+> [3G[J[3G
+> db.cre[3G[Jdb.create[12GCo[3G[Jdb.createCollection([23G''[3G[Jdb.createCollection(''[24G[3G[Jdb.createCollection('u'[25G[3G[Jdb.createCollection('us'[26G[3G[Jdb.createCollection('use'[27G[3G[Jdb.createCollection('user'[28G[3G[Jdb.createCollection('userr'[29G[3G[Jdb.createCollection('userrs'[30G[3G[Jdb.createCollection('userr'[29G[3G[Jdb.createCollection('user'[28G[3G[Jdb.createCollection('use'[27G[3G[Jdb.createCollection('us'[26G[3G[Jdb.createCollection('u'[25G[3G[Jdb.createCollection(''[24G[3G[Jdb.createCollection('u'[25G[3G[Jdb.createCollection('us'[26G[3G[Jdb.createCollection('use'[27G[3G[Jdb.createCollection('user'[28G[3G[Jdb.createCollection('users'[29G[3G[Jdb.createCollection('users'[30G)[3G[Jdb.createCollection('users')[31G
+{ "ok" : 1 }
+> for (va[3G[Jfor (v[9G[3G[Jfor ([8G)[3G[Jfor [1;34m([0m)[8G[3G[Jfor [1;34m([0mv)[9G[3G[Jfor [1;34m([0mva)[10G[3G[Jfor [1;34m([0mvae)[11G[3G[Jfor [1;34m([0mva)[10G[3G[Jfor [1;34m([0mvar)[11G[3G[Jfor [1;34m([0mvar )[12G[3G[Jfor [1;34m([0mvar i)[13G[3G[Jfor [1;34m([0mvar i=)[14G[3G[Jfor [1;34m([0mvar i=1)[15G[3G[Jfor [1;34m([0mvar i=)[14G[3G[Jfor [1;34m([0mvar i=0)[15G[3G[Jfor [1;34m([0mvar i=0;)[16G[3G[Jfor [1;34m([0mvar i=0;i)[17G[3G[Jfor [1;34m([0mvar i=0;i<)[18G[3G[Jfor [1;34m([0mvar i=0;i<1)[19G[3G[Jfor [1;34m([0mvar i=0;i<10)[20G[3G[Jfor [1;34m([0mvar i=0;i<100)[21G[3G[Jfor [1;34m([0mvar i=0;i<100.)[22G[3G[Jfor [1;34m([0mvar i=0;i<100.i)[23G[3G[Jfor [1;34m([0mvar i=0;i<100.i+)[24G[3G[Jfor [1;34m([0mvar i=0;i<100.i++)[25G[3G[Jfor (var i=0;i<100.i++)[24G[3G[Jfor (var i=0;i<100.i++)[23G[3G[Jfor (var i=0;i<100.i++)[22G[3G[Jfor (var i=0;i<100.i++)[21G[3G[Jfor (var i=0;i<100.i++)[22G[3G[Jfor (var i=0;i<100i++)[21G[3G[Jfor (var i=0;i<100;i++)[22G[3G[Jfor (var i=0;i<100i++)[21G[3G[Jfor (var i=0;i<100li++)[22G[3G[Jfor (var i=0;i<100i++)[21G[3G[Jfor (var i=0;i<10i++)[20G[3G[Jfor (var i=0;i<10;i++)[21G[3G[Jfor (var i=0;i<10;i++)[22G[3G[Jfor (var i=0;i<10;i++)[23G[3G[Jfor [1;34m([0mvar i=0;i<10;i++)[24G[3G[Jfor (var i=0;i<10;i++)[25G{[3G[Jfor (var i=0;i<10;i++){[26G
+... db.us[5G[Jdb.users[13G.ins[5G[Jdb.users.insert([21G{[5G[Jdb.users.insert({[22G
+... name:""[5G[Jname:""[11G[5G[Jname:"u"[12G[5G[Jname:"us"[13G[5G[Jname:"use"[14G[5G[Jname:"user"[15G[5G[Jname:"user-"[16G[5G[Jname:"user-"[17G+i,[5G[Jname:"user-"+i,[20G
+... tean[5G[Jtea[8Gm:""[5G[Jteam:""[11G[5G[Jteam:"t"[12G[5G[Jteam:"te"[13G[5G[Jteam:"tea"[14G[5G[Jteam:"team"[15G[5G[Jteam:"team-"[16G[5G[Jteam:"team-"[17G+()[5G[Jteam:"team-"+[1;34m([0m)[19G[5G[Jteam:"team-"+[1;34m([0mi)[20G[5G[Jteam:"team-"+[1;34m([0mi%)[21G[5G[Jteam:"team-"+[1;34m([0mi%3)[22G[5G[Jteam:"team-"+(i%3)[23G,[5G[Jteam:"team-"+(i%3),[24G
+... score:Math.floor()[5G[Jscore:Math.floor[1;34m([0m)[22G[5G[Jscore:Math.floor[1;34m([0mM)[23G[5G[Jscore:Math.floor[1;34m([0mMa)[24G[5G[Jscore:Math.floor[1;34m([0mMat)[25G[5G[Jscore:Math.floor[1;34m([0mMath)[26G[5G[Jscore:Math.floor[1;34m([0mMath.)[27G[5G[Jscore:Math.floor[1;34m([0mMath.r)[28G[5G[Jscore:Math.floor[1;34m([0mMath.ra)[29G[5G[Jscore:Math.floor[1;34m([0mMath.ran)[30G[5G[Jscore:Math.floor[1;34m([0mMath.rand)[31G[5G[Jscore:Math.floor[1;34m([0mMath.rando)[32G[5G[Jscore:Math.floor[1;34m([0mMath.random)[33G[5G[Jscore:Math.floor(Math.random[1;34m([0m)[34G[5G[Jscore:Math.floor[1;34m([0mMath.random())[35G[5G[Jscore:Math.floor[1;34m([0mMath.random()*)[36G[5G[Jscore:Math.floor[1;34m([0mMath.random()*1)[37G[5G[Jscore:Math.floor[1;34m([0mMath.random()*10)[38G[5G[Jscore:Math.floor[1;34m([0mMath.random()*100)[39G[5G[Jscore:Math.floor(Math.random()*100)[40G[5G[Jscore:Math.floor(Math.random()*100)[40G
+... )[5G[J[5G});[5G[J});[8G
+... }[5G[J}[6G
+WriteResult({ "nInserted" : 1 })
+> [3G[J[3G
+> [3G[J[3G
+> s[3G[J[3Gdb.us[3G[Jdb.users[11G.cou[3G[Jdb.users.count([18G);[3G[Jdb.users.count();[20G
+10
+> [3G[Jdb.users.count();[20G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[42G[1A[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[3G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[4G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[5G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[6G[3G[Jfor (var i=0;i<10;i++[1;34m)[0m{ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[7G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[8G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[9G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[10G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[11G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[12G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[13G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[14G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[15G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[16G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[17G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[18G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[19G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[20G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[19G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[18G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[17G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[16G[3G[Jfor (var i=0;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[15G[3G[Jfor (var i=;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[14G[3G[Jfor (var i=9;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[15G[3G[Jfor (var i=9;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[16G[3G[Jfor (var i=9;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[17G[3G[Jfor (var i=9;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[18G[3G[Jfor (var i=9;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[19G[3G[Jfor (var i=9;i<10;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[20G[3G[Jfor (var i=9;i<100;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[1A[21G[3G[Jfor (var i=9;i<100;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[43G
+WriteResult({ "nInserted" : 1 })
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jfor (var i=9;i<100;i++){ db.users.insert({ name:"user-"+i, team:"team-"+(i%3), score:Math.floor(Math.random()*100) }); }[43G[1A[3G[Jdb.users.count();[20G[3G[Jdb.users.count();[20G
+101
+> find[3G[Jfin[6G[3G[Jfi[5G[3G[Jf[4G[3G[J[3Gdb.us[3G[Jdb.users[11G.fin[3G[Jdb.users.find[16G()[3G[Jdb.users.find[1;34m([0m)[17G[3G[Jdb.users.find([1;34m{[0m)[18G[3G[Jdb.users.find[1;34m([0m{})[19G[3G[Jdb.users.find([1;34m{[0m})[18G[3G[Jdb.users.find([1;34m{[0m"})[19G[3G[Jdb.users.find([1;34m{[0m})[18G[3G[Jdb.users.find([1;34m{[0mn})[19G[3G[Jdb.users.find([1;34m{[0mna})[20G[3G[Jdb.users.find([1;34m{[0mnam})[21G[3G[Jdb.users.find([1;34m{[0mname})[22G[3G[Jdb.users.find([1;34m{[0mname:})[23G[3G[Jdb.users.find([1;34m{[0mname:"})[24G[3G[Jdb.users.find([1;34m{[0mname:""})[25G[3G[Jdb.users.find({name:""})[24G[3G[Jdb.users.find({name:"u"})[25G[3G[Jdb.users.find({name:"us"})[26G[3G[Jdb.users.find({name:"use"})[27G[3G[Jdb.users.find({name:"user"})[28G[3G[Jdb.users.find({name:"user-"})[29G[3G[Jdb.users.find({name:"user-9"})[30G[3G[Jdb.users.find([1;34m{[0mname:"user-9"})[31G[3G[Jdb.users.find[1;34m([0m{name:"user-9"})[32G[3G[Jdb.users.find({name:"user-9"})[33G[3G[Jdb.users.find({name:"user-9"})[33G
+{ "_id" : ObjectId("541a2204d163f0174bf4c808"), "name" : "user-9", "team" : "team-0", "score" : 75 }
+{ "_id" : ObjectId("541a2221d163f0174bf4c809"), "name" : "user-9", "team" : "team-0", "score" : 23 }
+> db.us[3G[Jdb.users[11G.fi[3G[Jdb.users.find[16G()[3G[Jdb.users.find[1;34m([0m)[17G[3G[Jdb.users.find([1;34m{[0m)[18G[3G[Jdb.users.find[1;34m([0m{})[19G[3G[Jdb.users.find[1;34m([0m{},)[20G[3G[Jdb.users.find({},[1;34m{[0m)[21G[3G[Jdb.users.find[1;34m([0m{},{})[22G[3G[Jdb.users.find({},[1;34m{[0m})[21G[3G[Jdb.users.find({},[1;34m{[0m_})[22G[3G[Jdb.users.find({},[1;34m{[0m_i})[23G[3G[Jdb.users.find({},[1;34m{[0m_id})[24G[3G[Jdb.users.find({},[1;34m{[0m_id:})[25G[3G[Jdb.users.find({},[1;34m{[0m_id:0})[26G[3G[Jdb.users.find[1;34m([0m{},{_id:0})[27G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "user-0", "team" : "team-0", "score" : 35 }
+{ "name" : "user-1", "team" : "team-1", "score" : 10 }
+{ "name" : "user-2", "team" : "team-2", "score" : 46 }
+{ "name" : "user-3", "team" : "team-0", "score" : 12 }
+{ "name" : "user-4", "team" : "team-1", "score" : 78 }
+{ "name" : "user-5", "team" : "team-2", "score" : 48 }
+{ "name" : "user-6", "team" : "team-0", "score" : 34 }
+{ "name" : "user-7", "team" : "team-1", "score" : 40 }
+{ "name" : "user-8", "team" : "team-2", "score" : 78 }
+{ "name" : "user-9", "team" : "team-0", "score" : 75 }
+{ "name" : "user-9", "team" : "team-0", "score" : 23 }
+{ "name" : "user-10", "team" : "team-1", "score" : 15 }
+{ "name" : "user-11", "team" : "team-2", "score" : 8 }
+{ "name" : "user-12", "team" : "team-0", "score" : 4 }
+{ "name" : "user-13", "team" : "team-1", "score" : 91 }
+{ "name" : "user-14", "team" : "team-2", "score" : 17 }
+{ "name" : "user-15", "team" : "team-0", "score" : 55 }
+{ "name" : "user-16", "team" : "team-1", "score" : 73 }
+{ "name" : "user-17", "team" : "team-2", "score" : 80 }
+{ "name" : "user-18", "team" : "team-0", "score" : 89 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-19", "team" : "team-1", "score" : 77 }
+{ "name" : "user-20", "team" : "team-2", "score" : 70 }
+{ "name" : "user-21", "team" : "team-0", "score" : 89 }
+{ "name" : "user-22", "team" : "team-1", "score" : 67 }
+{ "name" : "user-23", "team" : "team-2", "score" : 71 }
+{ "name" : "user-24", "team" : "team-0", "score" : 29 }
+{ "name" : "user-25", "team" : "team-1", "score" : 74 }
+{ "name" : "user-26", "team" : "team-2", "score" : 5 }
+{ "name" : "user-27", "team" : "team-0", "score" : 21 }
+{ "name" : "user-28", "team" : "team-1", "score" : 15 }
+{ "name" : "user-29", "team" : "team-2", "score" : 3 }
+{ "name" : "user-30", "team" : "team-0", "score" : 32 }
+{ "name" : "user-31", "team" : "team-1", "score" : 51 }
+{ "name" : "user-32", "team" : "team-2", "score" : 40 }
+{ "name" : "user-33", "team" : "team-0", "score" : 72 }
+{ "name" : "user-34", "team" : "team-1", "score" : 1 }
+{ "name" : "user-35", "team" : "team-2", "score" : 62 }
+{ "name" : "user-36", "team" : "team-0", "score" : 15 }
+{ "name" : "user-37", "team" : "team-1", "score" : 70 }
+{ "name" : "user-38", "team" : "team-2", "score" : 99 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-39", "team" : "team-0", "score" : 34 }
+{ "name" : "user-40", "team" : "team-1", "score" : 8 }
+{ "name" : "user-41", "team" : "team-2", "score" : 48 }
+{ "name" : "user-42", "team" : "team-0", "score" : 61 }
+{ "name" : "user-43", "team" : "team-1", "score" : 13 }
+{ "name" : "user-44", "team" : "team-2", "score" : 76 }
+{ "name" : "user-45", "team" : "team-0", "score" : 22 }
+{ "name" : "user-46", "team" : "team-1", "score" : 36 }
+{ "name" : "user-47", "team" : "team-2", "score" : 32 }
+{ "name" : "user-48", "team" : "team-0", "score" : 23 }
+{ "name" : "user-49", "team" : "team-1", "score" : 5 }
+{ "name" : "user-50", "team" : "team-2", "score" : 32 }
+{ "name" : "user-51", "team" : "team-0", "score" : 66 }
+{ "name" : "user-52", "team" : "team-1", "score" : 14 }
+{ "name" : "user-53", "team" : "team-2", "score" : 72 }
+{ "name" : "user-54", "team" : "team-0", "score" : 74 }
+{ "name" : "user-55", "team" : "team-1", "score" : 50 }
+{ "name" : "user-56", "team" : "team-2", "score" : 91 }
+{ "name" : "user-57", "team" : "team-0", "score" : 81 }
+{ "name" : "user-58", "team" : "team-1", "score" : 13 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-59", "team" : "team-2", "score" : 64 }
+{ "name" : "user-60", "team" : "team-0", "score" : 11 }
+{ "name" : "user-61", "team" : "team-1", "score" : 48 }
+{ "name" : "user-62", "team" : "team-2", "score" : 84 }
+{ "name" : "user-63", "team" : "team-0", "score" : 1 }
+{ "name" : "user-64", "team" : "team-1", "score" : 93 }
+{ "name" : "user-65", "team" : "team-2", "score" : 0 }
+{ "name" : "user-66", "team" : "team-0", "score" : 3 }
+{ "name" : "user-67", "team" : "team-1", "score" : 30 }
+{ "name" : "user-68", "team" : "team-2", "score" : 22 }
+{ "name" : "user-69", "team" : "team-0", "score" : 40 }
+{ "name" : "user-70", "team" : "team-1", "score" : 94 }
+{ "name" : "user-71", "team" : "team-2", "score" : 86 }
+{ "name" : "user-72", "team" : "team-0", "score" : 38 }
+{ "name" : "user-73", "team" : "team-1", "score" : 90 }
+{ "name" : "user-74", "team" : "team-2", "score" : 92 }
+{ "name" : "user-75", "team" : "team-0", "score" : 28 }
+{ "name" : "user-76", "team" : "team-1", "score" : 31 }
+{ "name" : "user-77", "team" : "team-2", "score" : 15 }
+{ "name" : "user-78", "team" : "team-0", "score" : 49 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-79", "team" : "team-1", "score" : 80 }
+{ "name" : "user-80", "team" : "team-2", "score" : 88 }
+{ "name" : "user-81", "team" : "team-0", "score" : 36 }
+{ "name" : "user-82", "team" : "team-1", "score" : 97 }
+{ "name" : "user-83", "team" : "team-2", "score" : 72 }
+{ "name" : "user-84", "team" : "team-0", "score" : 27 }
+{ "name" : "user-85", "team" : "team-1", "score" : 61 }
+{ "name" : "user-86", "team" : "team-2", "score" : 79 }
+{ "name" : "user-87", "team" : "team-0", "score" : 87 }
+{ "name" : "user-88", "team" : "team-1", "score" : 85 }
+{ "name" : "user-89", "team" : "team-2", "score" : 19 }
+{ "name" : "user-90", "team" : "team-0", "score" : 29 }
+{ "name" : "user-91", "team" : "team-1", "score" : 22 }
+{ "name" : "user-92", "team" : "team-2", "score" : 19 }
+{ "name" : "user-93", "team" : "team-0", "score" : 55 }
+{ "name" : "user-94", "team" : "team-1", "score" : 14 }
+{ "name" : "user-95", "team" : "team-2", "score" : 36 }
+{ "name" : "user-96", "team" : "team-0", "score" : 24 }
+{ "name" : "user-97", "team" : "team-1", "score" : 49 }
+{ "name" : "user-98", "team" : "team-2", "score" : 40 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-99", "team" : "team-0", "score" : 76 }
+> it[3G[Jit[5G
+no cursor
+> [3G[J[3G
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jit[5G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jit[5G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "user-0", "team" : "team-0", "score" : 35 }
+{ "name" : "user-1", "team" : "team-1", "score" : 10 }
+{ "name" : "user-2", "team" : "team-2", "score" : 46 }
+{ "name" : "user-3", "team" : "team-0", "score" : 12 }
+{ "name" : "user-4", "team" : "team-1", "score" : 78 }
+{ "name" : "user-5", "team" : "team-2", "score" : 48 }
+{ "name" : "user-6", "team" : "team-0", "score" : 34 }
+{ "name" : "user-7", "team" : "team-1", "score" : 40 }
+{ "name" : "user-8", "team" : "team-2", "score" : 78 }
+{ "name" : "user-9", "team" : "team-0", "score" : 75 }
+{ "name" : "user-9", "team" : "team-0", "score" : 23 }
+{ "name" : "user-10", "team" : "team-1", "score" : 15 }
+{ "name" : "user-11", "team" : "team-2", "score" : 8 }
+{ "name" : "user-12", "team" : "team-0", "score" : 4 }
+{ "name" : "user-13", "team" : "team-1", "score" : 91 }
+{ "name" : "user-14", "team" : "team-2", "score" : 17 }
+{ "name" : "user-15", "team" : "team-0", "score" : 55 }
+{ "name" : "user-16", "team" : "team-1", "score" : 73 }
+{ "name" : "user-17", "team" : "team-2", "score" : 80 }
+{ "name" : "user-18", "team" : "team-0", "score" : 89 }
+Type "it" for more
+> db.us[3G[Jdb.u[7G[3G[Jdb.[6Guser[3G[Jdb.users[11G.up[3G[Jdb.users.update([19G{}[3G[Jdb.users.update([1;34m{[0m}[20G[3G[Jdb.users.update([1;34m{[0mt}[21G[3G[Jdb.users.update([1;34m{[0mte}[22G[3G[Jdb.users.update([1;34m{[0mtea}[23G[3G[Jdb.users.update([1;34m{[0mteam}[24G[3G[Jdb.users.update([1;34m{[0mteam:}[25G[3G[Jdb.users.update([1;34m{[0mteam:"}[26G[3G[Jdb.users.update([1;34m{[0mteam:""}[27G[3G[Jdb.users.update({team:""}[26G[3G[Jdb.users.update({team:"t"}[27G[3G[Jdb.users.update({team:"te"}[28G[3G[Jdb.users.update({team:"tea"}[29G[3G[Jdb.users.update({team:"team"}[30G[3G[Jdb.users.update({team:"team-"}[31G[3G[Jdb.users.update({team:"team-0"}[32G[3G[Jdb.users.update([1;34m{[0mteam:"team-0"}[33G[3G[Jdb.users.update({team:"team-0"}[34G,{}[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m}[36G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$}[37G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$i}[38G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$in}[39G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc}[40G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:}[41G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0m}[42G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{}}[43G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0m}}[42G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0ms}}[43G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0msc}}[44G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0msco}}[45G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscor}}[46G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore}}[47G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:}}[48G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"}}[49G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:}}[48G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"}}[49G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:""}}[50G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:""}}[49G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"2"}}[50G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}}[51G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"22"}}[52G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:"22"}}[53G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}}[54G)[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G
+WriteResult({
+	"nMatched" : 0,
+	"nUpserted" : 0,
+	"nModified" : 0,
+	"writeError" : {
+		"code" : 14,
+		"errmsg" : "Cannot increment with non-numeric argument: {score: \"22\"}"
+	}
+})
+> [3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:"22"}})[54G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:"22"}})[53G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"22"}})[52G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:"22"}})[53G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:"22"}})[54G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:"22"})[53G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"})[54G
+... [5G[J[5G
+... [5G[J[5G
+> [3G[J;[4G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:"22"}})[54G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G
+WriteResult({
+	"nMatched" : 0,
+	"nUpserted" : 0,
+	"nModified" : 0,
+	"writeError" : {
+		"code" : 14,
+		"errmsg" : "Cannot increment with non-numeric argument: {score: \"22\"}"
+	}
+})
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:"22"}})[54G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:"22"}})[53G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"22"}})[52G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[51G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"22"}})[52G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:"22}})[51G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22}})[50G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22}})[49G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[48G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[53G
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> [3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[53G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G[3G[J;[4G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:"22"}})[55G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "user-0", "team" : "team-0", "score" : 57 }
+{ "name" : "user-1", "team" : "team-1", "score" : 10 }
+{ "name" : "user-2", "team" : "team-2", "score" : 46 }
+{ "name" : "user-3", "team" : "team-0", "score" : 12 }
+{ "name" : "user-4", "team" : "team-1", "score" : 78 }
+{ "name" : "user-5", "team" : "team-2", "score" : 48 }
+{ "name" : "user-6", "team" : "team-0", "score" : 34 }
+{ "name" : "user-7", "team" : "team-1", "score" : 40 }
+{ "name" : "user-8", "team" : "team-2", "score" : 78 }
+{ "name" : "user-9", "team" : "team-0", "score" : 75 }
+{ "name" : "user-9", "team" : "team-0", "score" : 23 }
+{ "name" : "user-10", "team" : "team-1", "score" : 15 }
+{ "name" : "user-11", "team" : "team-2", "score" : 8 }
+{ "name" : "user-12", "team" : "team-0", "score" : 4 }
+{ "name" : "user-13", "team" : "team-1", "score" : 91 }
+{ "name" : "user-14", "team" : "team-2", "score" : 17 }
+{ "name" : "user-15", "team" : "team-0", "score" : 55 }
+{ "name" : "user-16", "team" : "team-1", "score" : 73 }
+{ "name" : "user-17", "team" : "team-2", "score" : 80 }
+{ "name" : "user-18", "team" : "team-0", "score" : 89 }
+Type "it" for more
+> [3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[53G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[53G
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> [3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[53G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "user-0", "team" : "team-0", "score" : 79 }
+{ "name" : "user-1", "team" : "team-1", "score" : 10 }
+{ "name" : "user-2", "team" : "team-2", "score" : 46 }
+{ "name" : "user-3", "team" : "team-0", "score" : 12 }
+{ "name" : "user-4", "team" : "team-1", "score" : 78 }
+{ "name" : "user-5", "team" : "team-2", "score" : 48 }
+{ "name" : "user-6", "team" : "team-0", "score" : 34 }
+{ "name" : "user-7", "team" : "team-1", "score" : 40 }
+{ "name" : "user-8", "team" : "team-2", "score" : 78 }
+{ "name" : "user-9", "team" : "team-0", "score" : 75 }
+{ "name" : "user-9", "team" : "team-0", "score" : 23 }
+{ "name" : "user-10", "team" : "team-1", "score" : 15 }
+{ "name" : "user-11", "team" : "team-2", "score" : 8 }
+{ "name" : "user-12", "team" : "team-0", "score" : 4 }
+{ "name" : "user-13", "team" : "team-1", "score" : 91 }
+{ "name" : "user-14", "team" : "team-2", "score" : 17 }
+{ "name" : "user-15", "team" : "team-0", "score" : 55 }
+{ "name" : "user-16", "team" : "team-1", "score" : 73 }
+{ "name" : "user-17", "team" : "team-2", "score" : 80 }
+{ "name" : "user-18", "team" : "team-0", "score" : 89 }
+Type "it" for more
+> [3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:22}})[53G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:22}})[52G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:22}})[51G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:22}})[50G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:2}})[49G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:}})[48G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:9}})[49G[3G[Jdb.users.update({team:"team-0"},{$inc:[1;34m{[0mscore:99}})[50G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99}})[51G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99},})[52G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0m})[53G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99},{}})[54G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0m}})[53G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mm}})[54G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmu}})[55G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmul}})[56G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmult}})[57G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti}})[58G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:}})[59G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:t}})[60G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:tr}})[61G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:tru}})[62G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:true}})[63G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99},{multi:true}})[64G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:99},{multi:true}})[65G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},{multi:true}})[66G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},{multi:true}})[66G
+2014-09-18T09:55:58.199+0900 SyntaxError: Unexpected token {
+> [3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},{multi:true}})[66G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:99},{multi:true}})[65G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99},{multi:true}})[64G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:true})[63G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:tru})[62G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:tr})[61G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:t})[60G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti:})[59G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmulti})[58G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmult})[57G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmul})[56G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mmu})[55G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0mm})[54G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},[1;34m{[0m})[53G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99},})[52G[3G[Jdb.users.update({team:"team-0"},[1;34m{[0m$inc:{score:99}})[51G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:99}})[52G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:99}},)[53G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0m)[54G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:99}},{})[55G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0m})[54G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mm})[55G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmu})[56G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmut})[57G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmuti})[58G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmutil})[59G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmutilt})[60G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmutilti})[61G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmutilt})[60G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmutil})[59G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmuti})[58G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmut})[57G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmu})[56G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmul})[57G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmult})[58G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmulti})[59G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmulti:})[60G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmulti:t})[61G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmulti:tr})[62G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmulti:tru})[63G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},[1;34m{[0mmulti:true})[64G[3G[Jdb.users.update[1;34m([0m{team:"team-0"},{$inc:{score:99}},{multi:true})[65G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},{multi:true})[66G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},{multi:true})[66G
+WriteResult({ "nMatched" : 35, "nUpserted" : 0, "nModified" : 35 })
+> [3G[Jdb.users.update({team:"team-0"},{$inc:{score:99}},{multi:true})[66G[3G[Jdb.users.update({team:"team-0"},{$inc:{score:99},{multi:true}})[66G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "user-0", "team" : "team-0", "score" : 178 }
+{ "name" : "user-1", "team" : "team-1", "score" : 10 }
+{ "name" : "user-2", "team" : "team-2", "score" : 46 }
+{ "name" : "user-3", "team" : "team-0", "score" : 111 }
+{ "name" : "user-4", "team" : "team-1", "score" : 78 }
+{ "name" : "user-5", "team" : "team-2", "score" : 48 }
+{ "name" : "user-6", "team" : "team-0", "score" : 133 }
+{ "name" : "user-7", "team" : "team-1", "score" : 40 }
+{ "name" : "user-8", "team" : "team-2", "score" : 78 }
+{ "name" : "user-9", "team" : "team-0", "score" : 174 }
+{ "name" : "user-9", "team" : "team-0", "score" : 122 }
+{ "name" : "user-10", "team" : "team-1", "score" : 15 }
+{ "name" : "user-11", "team" : "team-2", "score" : 8 }
+{ "name" : "user-12", "team" : "team-0", "score" : 103 }
+{ "name" : "user-13", "team" : "team-1", "score" : 91 }
+{ "name" : "user-14", "team" : "team-2", "score" : 17 }
+{ "name" : "user-15", "team" : "team-0", "score" : 154 }
+{ "name" : "user-16", "team" : "team-1", "score" : 73 }
+{ "name" : "user-17", "team" : "team-2", "score" : 80 }
+{ "name" : "user-18", "team" : "team-0", "score" : 188 }
+Type "it" for more
+> db.us[3G[Jdb.users[11G.up[3G[Jdb.users.update([19G{}[3G[Jdb.users.update([1;34m{[0m}[20G[3G[Jdb.users.update([1;34m{[0mn}[21G[3G[Jdb.users.update([1;34m{[0mna}[22G[3G[Jdb.users.update([1;34m{[0mnam}[23G[3G[Jdb.users.update([1;34m{[0mname}[24G[3G[Jdb.users.update([1;34m{[0mname:}[25G[3G[Jdb.users.update([1;34m{[0mname:'}[26G[3G[Jdb.users.update([1;34m{[0mname:''}[27G[3G[Jdb.users.update([1;34m{[0mname:'}[26G[3G[Jdb.users.update([1;34m{[0mname:}[25G[3G[Jdb.users.update([1;34m{[0mname:"}[26G[3G[Jdb.users.update([1;34m{[0mname:""}[27G[3G[Jdb.users.update([1;34m{[0mname:"}[26G[3G[Jdb.users.update([1;34m{[0mname:}[25G[3G[Jdb.users.update([1;34m{[0mname:'}[26G[3G[Jdb.users.update([1;34m{[0mname:''}[27G[3G[Jdb.users.update({name:''}[26G[3G[Jdb.users.update({name:'t'}[27G[3G[Jdb.users.update({name:'ta'}[28G[3G[Jdb.users.update({name:'tag'}[29G[3G[Jdb.users.update({name:'tagu'}[30G[3G[Jdb.users.update({name:'taguc'}[31G[3G[Jdb.users.update({name:'taguch'}[32G[3G[Jdb.users.update({name:'taguchi'}[33G[3G[Jdb.users.update([1;34m{[0mname:'taguchi'}[34G[3G[Jdb.users.update([1;34m{[0mname:'taguchi',}[35G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0m}[36G[3G[Jdb.users.update([1;34m{[0mname:'taguchi',{}}[37G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0m}}[36G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mn}}[37G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mna}}[38G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mnam}}[39G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname}}[40G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:}}[41G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'}}[42G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:''}}[43G[3G[Jdb.users.update({name:'taguchi',{name:''}}[42G[3G[Jdb.users.update({name:'taguchi',{name:'t'}}[43G[3G[Jdb.users.update({name:'taguchi',{name:'ta'}}[44G[3G[Jdb.users.update({name:'taguchi',{name:'tag'}}[45G[3G[Jdb.users.update({name:'taguchi',{name:'tagu'}}[46G[3G[Jdb.users.update({name:'taguchi',{name:'taguc'}}[47G[3G[Jdb.users.update({name:'taguchi',{name:'taguch'}}[48G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi'}}[49G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi'}}[50G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',}}[51G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',t}}[52G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',te}}[53G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',tea}}[54G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team}}[55G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:}}[56G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'}}[57G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:''}}[58G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:''}}[57G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'d'}}[58G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'do'}}[59G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dot'}}[60G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'doti'}}[61G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotin'}}[62G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotins'}}[63G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinst'}}[64G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinsta'}}[65G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstal'}}[66G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall'}}[67G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall,'}}[68G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall'}}[67G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall'}}[68G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',}}[69G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',s}}[70G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',sc}}[71G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',sco}}[72G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',scor}}[73G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',score}}[74G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',score:}}[75G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',score:1}}[76G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',score:12}}[77G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',score:120}}[78G[3G[Jdb.users.update([1;34m{[0mname:'taguchi',{name:'taguchi',team:'dotinstall',score:120}}[79G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}}[80G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}})
+[1G[1A[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[2G[1A[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[2G
+2014-09-18T10:00:19.899+0900 SyntaxError: Unexpected token {
+> [3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[2G[1A[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[80G[3G[Jdb.users.update([1;34m{[0mname:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[79G[3G[Jdb.users.update({name:'taguchi',[1;34m{[0mname:'taguchi',team:'dotinstall',score:120}});[1A[78G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[77G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[76G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[75G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[74G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[73G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[72G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[71G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[70G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[69G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[68G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[67G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[66G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[65G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[64G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[63G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[62G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[61G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[60G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[59G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[58G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[57G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[56G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[55G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[54G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[53G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[52G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[51G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[50G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[49G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[48G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[47G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[46G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[45G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[44G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[43G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[42G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[41G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[40G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[39G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[38G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[37G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[36G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120[1;34m}[0m});[1A[35G[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[1A[34G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[35G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[3G
+2014-09-18T10:00:32.438+0900 SyntaxError: Unexpected token }
+> [3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[3G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[80G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:120}});[1A[79G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[78G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:120}});[1A[79G[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[80G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[3G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[80G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:120}});[1A[79G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[78G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[77G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[76G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[75G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[74G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[73G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[72G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[71G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[70G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[69G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[68G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[67G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[66G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[65G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[64G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[63G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[62G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[61G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[60G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[59G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[58G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[57G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[56G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[55G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[54G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[53G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[54G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[55G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[56G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[57G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[58G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[59G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[60G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[61G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[62G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[63G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[64G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[65G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[66G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[67G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[68G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[69G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[70G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[71G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[72G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[73G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[74G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[75G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[76G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[77G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[78G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:120}});[1A[79G[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1A[80G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[1G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[1A[80G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[2G
+WriteResult({ "nMatched" : 0, "nUpserted" : 0, "nModified" : 0 })
+> [3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[1G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[1A[80G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:120});[1A[79G[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[1A[80G[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},);[1G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0m);[2G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{});[3G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0m});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mu});[3G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mup});[4G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mups});[5G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupse});[6G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupser});[7G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert});[8G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert,});[9G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert});[8G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert:});[9G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert:t});[10G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert:tr});[11G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert:tru});[12G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert:true});[13G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[14G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[15G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G
+WriteResult({
+	"nMatched" : 0,
+	"nUpserted" : 1,
+	"nModified" : 0,
+	"_id" : ObjectId("541a2ed245e201afac2485e3")
+})
+> [3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120}});[3G[1A[3G[Jdb.users.update({name:'taguchi',{name:'taguchi',team:'dotinstall',score:120}});[2G[1A[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "user-0", "team" : "team-0", "score" : 178 }
+{ "name" : "user-1", "team" : "team-1", "score" : 10 }
+{ "name" : "user-2", "team" : "team-2", "score" : 46 }
+{ "name" : "user-3", "team" : "team-0", "score" : 111 }
+{ "name" : "user-4", "team" : "team-1", "score" : 78 }
+{ "name" : "user-5", "team" : "team-2", "score" : 48 }
+{ "name" : "user-6", "team" : "team-0", "score" : 133 }
+{ "name" : "user-7", "team" : "team-1", "score" : 40 }
+{ "name" : "user-8", "team" : "team-2", "score" : 78 }
+{ "name" : "user-9", "team" : "team-0", "score" : 174 }
+{ "name" : "user-9", "team" : "team-0", "score" : 122 }
+{ "name" : "user-10", "team" : "team-1", "score" : 15 }
+{ "name" : "user-11", "team" : "team-2", "score" : 8 }
+{ "name" : "user-12", "team" : "team-0", "score" : 103 }
+{ "name" : "user-13", "team" : "team-1", "score" : 91 }
+{ "name" : "user-14", "team" : "team-2", "score" : 17 }
+{ "name" : "user-15", "team" : "team-0", "score" : 154 }
+{ "name" : "user-16", "team" : "team-1", "score" : 73 }
+{ "name" : "user-17", "team" : "team-2", "score" : 80 }
+{ "name" : "user-18", "team" : "team-0", "score" : 188 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-19", "team" : "team-1", "score" : 77 }
+{ "name" : "user-20", "team" : "team-2", "score" : 70 }
+{ "name" : "user-21", "team" : "team-0", "score" : 188 }
+{ "name" : "user-22", "team" : "team-1", "score" : 67 }
+{ "name" : "user-23", "team" : "team-2", "score" : 71 }
+{ "name" : "user-24", "team" : "team-0", "score" : 128 }
+{ "name" : "user-25", "team" : "team-1", "score" : 74 }
+{ "name" : "user-26", "team" : "team-2", "score" : 5 }
+{ "name" : "user-27", "team" : "team-0", "score" : 120 }
+{ "name" : "user-28", "team" : "team-1", "score" : 15 }
+{ "name" : "user-29", "team" : "team-2", "score" : 3 }
+{ "name" : "user-30", "team" : "team-0", "score" : 131 }
+{ "name" : "user-31", "team" : "team-1", "score" : 51 }
+{ "name" : "user-32", "team" : "team-2", "score" : 40 }
+{ "name" : "user-33", "team" : "team-0", "score" : 171 }
+{ "name" : "user-34", "team" : "team-1", "score" : 1 }
+{ "name" : "user-35", "team" : "team-2", "score" : 62 }
+{ "name" : "user-36", "team" : "team-0", "score" : 114 }
+{ "name" : "user-37", "team" : "team-1", "score" : 70 }
+{ "name" : "user-38", "team" : "team-2", "score" : 99 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-39", "team" : "team-0", "score" : 133 }
+{ "name" : "user-40", "team" : "team-1", "score" : 8 }
+{ "name" : "user-41", "team" : "team-2", "score" : 48 }
+{ "name" : "user-42", "team" : "team-0", "score" : 160 }
+{ "name" : "user-43", "team" : "team-1", "score" : 13 }
+{ "name" : "user-44", "team" : "team-2", "score" : 76 }
+{ "name" : "user-45", "team" : "team-0", "score" : 121 }
+{ "name" : "user-46", "team" : "team-1", "score" : 36 }
+{ "name" : "user-47", "team" : "team-2", "score" : 32 }
+{ "name" : "user-48", "team" : "team-0", "score" : 122 }
+{ "name" : "user-49", "team" : "team-1", "score" : 5 }
+{ "name" : "user-50", "team" : "team-2", "score" : 32 }
+{ "name" : "user-51", "team" : "team-0", "score" : 165 }
+{ "name" : "user-52", "team" : "team-1", "score" : 14 }
+{ "name" : "user-53", "team" : "team-2", "score" : 72 }
+{ "name" : "user-54", "team" : "team-0", "score" : 173 }
+{ "name" : "user-55", "team" : "team-1", "score" : 50 }
+{ "name" : "user-56", "team" : "team-2", "score" : 91 }
+{ "name" : "user-57", "team" : "team-0", "score" : 180 }
+{ "name" : "user-58", "team" : "team-1", "score" : 13 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-59", "team" : "team-2", "score" : 64 }
+{ "name" : "user-60", "team" : "team-0", "score" : 110 }
+{ "name" : "user-61", "team" : "team-1", "score" : 48 }
+{ "name" : "user-62", "team" : "team-2", "score" : 84 }
+{ "name" : "user-63", "team" : "team-0", "score" : 100 }
+{ "name" : "user-64", "team" : "team-1", "score" : 93 }
+{ "name" : "user-65", "team" : "team-2", "score" : 0 }
+{ "name" : "user-66", "team" : "team-0", "score" : 102 }
+{ "name" : "user-67", "team" : "team-1", "score" : 30 }
+{ "name" : "user-68", "team" : "team-2", "score" : 22 }
+{ "name" : "user-69", "team" : "team-0", "score" : 139 }
+{ "name" : "user-70", "team" : "team-1", "score" : 94 }
+{ "name" : "user-71", "team" : "team-2", "score" : 86 }
+{ "name" : "user-72", "team" : "team-0", "score" : 137 }
+{ "name" : "user-73", "team" : "team-1", "score" : 90 }
+{ "name" : "user-74", "team" : "team-2", "score" : 92 }
+{ "name" : "user-75", "team" : "team-0", "score" : 127 }
+{ "name" : "user-76", "team" : "team-1", "score" : 31 }
+{ "name" : "user-77", "team" : "team-2", "score" : 15 }
+{ "name" : "user-78", "team" : "team-0", "score" : 148 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-79", "team" : "team-1", "score" : 80 }
+{ "name" : "user-80", "team" : "team-2", "score" : 88 }
+{ "name" : "user-81", "team" : "team-0", "score" : 135 }
+{ "name" : "user-82", "team" : "team-1", "score" : 97 }
+{ "name" : "user-83", "team" : "team-2", "score" : 72 }
+{ "name" : "user-84", "team" : "team-0", "score" : 126 }
+{ "name" : "user-85", "team" : "team-1", "score" : 61 }
+{ "name" : "user-86", "team" : "team-2", "score" : 79 }
+{ "name" : "user-87", "team" : "team-0", "score" : 186 }
+{ "name" : "user-88", "team" : "team-1", "score" : 85 }
+{ "name" : "user-89", "team" : "team-2", "score" : 19 }
+{ "name" : "user-90", "team" : "team-0", "score" : 128 }
+{ "name" : "user-91", "team" : "team-1", "score" : 22 }
+{ "name" : "user-92", "team" : "team-2", "score" : 19 }
+{ "name" : "user-93", "team" : "team-0", "score" : 154 }
+{ "name" : "user-94", "team" : "team-1", "score" : 14 }
+{ "name" : "user-95", "team" : "team-2", "score" : 36 }
+{ "name" : "user-96", "team" : "team-0", "score" : 123 }
+{ "name" : "user-97", "team" : "team-1", "score" : 49 }
+{ "name" : "user-98", "team" : "team-2", "score" : 40 }
+Type "it" for more
+> it[3G[Jit[5G
+{ "name" : "user-99", "team" : "team-0", "score" : 175 }
+{ "name" : "taguchi", "team" : "dotinstall", "score" : 120 }
+> i[3G[J[3G[3G[J[3G
+> [3G[J[3G
+> db.us[3G[Jdb.users[11G.remo[3G[Jdb.users.remove([19G)[3G[Jdb.users.remove()[20G
+2014-09-18T10:01:34.947+0900 remove needs a query at src/mongo/shell/collection.js:299
+> [3G[Jdb.users.remove()[20G[3G[Jdb.users.remove[1;34m([0m)[19G[3G[Jdb.users.remove([1;34m)[0m[18G[3G[Jdb.users.remove[1;34m([0m)[19G[3G[Jdb.users.remove([1;34m{[0m)[20G[3G[Jdb.users.remove[1;34m([0m{})[21G[3G[Jdb.users.remove({})[22G[3G[Jdb.users.remove({})[22G
+WriteResult({ "nRemoved" : 102 })
+> [3G[Jdb.users.remove({})[22G[3G[Jdb.users.remove()[20G[3G[Jit[5G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.remove({})[22G[3G[Jdb.users.remove()[20G[3G[Jit[5G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G
+WriteResult({
+	"nMatched" : 0,
+	"nUpserted" : 1,
+	"nModified" : 0,
+	"_id" : ObjectId("541a2f0e45e201afac2485e4")
+})
+> [3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "taguchi", "team" : "dotinstall", "score" : 120 }
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> [3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[15G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[14G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},[1;34m{[0mupsert:true});[13G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[12G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[11G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[10G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[9G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[8G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[7G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[6G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[5G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[4G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[3G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true[1;34m}[0m);[1G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[1A[80G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:120},{upsert:true});[1A[79G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[1A[78G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[1A[77G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:20},{upsert:true});[1A[76G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[77G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[16G
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> [3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:120},{upsert:true});[16G[1A[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "taguchi", "team" : "dotinstall", "score" : 420 }
+> [3G[J[3G
+> [3G[J[3G
+> [3G[J[3G
+> db.us[3G[Jdb.users[11G.[3G[Jdb.users[11G[3G[Jdb.user[10G[3G[Jdb.use[9G[3G[Jdb.us[8G[3G[Jdb.u[7G[3G[Jdb.[6G[3G[Jdb[5G[3G[Jd[4G[3G[J[3G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[16G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[15G[1A[3G[Jdb.users.update[1;34m([0m{name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[14G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},[1;34m{[0mupsert:true});[13G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[12G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[11G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[10G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[9G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[8G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[7G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[6G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[5G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[4G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[3G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[2G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true[1;34m}[0m);[1G[1A[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[80G[3G[Jdb.users.update({name:'taguchi'},[1;34m{[0mname:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[79G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[78G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[77G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[76G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[75G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[74G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[73G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[72G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[71G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[70G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[69G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[68G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[67G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[66G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[65G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[64G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[63G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[62G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[61G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[60G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[3G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[4G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[5G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[6G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[7G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[8G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[9G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[10G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[11G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[12G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[13G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[14G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[15G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[16G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[17G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true}[1;34m)[0m;[1A[18G[3G[Jdb.users.update({name:'taguchi'[1;34m}[0m,{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[19G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[20G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[21G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[22G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[23G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[24G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[25G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[26G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[27G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[28G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[29G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[30G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[31G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[32G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[33G[3G[Jdb.users.update({name:'taguch'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[32G[3G[Jdb.users.update({name:'taguc'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[31G[3G[Jdb.users.update({name:'tagu'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[30G[3G[Jdb.users.update({name:'tag'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[29G[3G[Jdb.users.update({name:'ta'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[28G[3G[Jdb.users.update({name:'t'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[27G[3G[Jdb.users.update({name:''},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[26G[3G[Jdb.users.update([1;34m{[0mname:''},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[27G[3G[Jdb.users.update([1;34m{[0mname:'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[26G[3G[Jdb.users.update([1;34m{[0mname:},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[25G[3G[Jdb.users.update([1;34m{[0mname},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[24G[3G[Jdb.users.update([1;34m{[0mname:},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[25G[3G[Jdb.users.update([1;34m{[0mname:n},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[26G[3G[Jdb.users.update([1;34m{[0mname:na},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[27G[3G[Jdb.users.update([1;34m{[0mname:nam},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[28G[3G[Jdb.users.update([1;34m{[0mname:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[29G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[30G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420[1;34m}[0m,{upsert:true});[1A[31G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[32G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[33G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[34G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[35G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[36G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[37G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[38G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[39G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[40G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[41G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[42G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[43G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[44G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[45G[3G[Jdb.users.update({name:name},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[1A[46G[3G[Jdb.users.update({name:name},{name:'taguchi,team:'dotinstall',score:420},{upsert:true});[1A[45G[3G[Jdb.users.update({name:name},{name:'taguch,team:'dotinstall',score:420},{upsert:true});[1A[44G[3G[Jdb.users.update({name:name},{name:'taguc,team:'dotinstall',score:420},{upsert:true});[1A[43G[3G[Jdb.users.update({name:name},{name:'tagu,team:'dotinstall',score:420},{upsert:true});[1A[42G[3G[Jdb.users.update({name:name},{name:'tag,team:'dotinstall',score:420},{upsert:true});[1A[41G[3G[Jdb.users.update({name:name},{name:'ta,team:'dotinstall',score:420},{upsert:true});[1A[40G[3G[Jdb.users.update({name:name},{name:'t,team:'dotinstall',score:420},{upsert:true});[1A[39G[3G[Jdb.users.update({name:name},{name:',team:'dotinstall',score:420},{upsert:true});[1A[38G[3G[Jdb.users.update({name:name},{name:,team:'dotinstall',score:420},{upsert:true});[1A[37G[3G[Jdb.users.update({name:name},{name:n,team:'dotinstall',score:420},{upsert:true});[1A[38G[3G[Jdb.users.update({name:name},{name:na,team:'dotinstall',score:420},{upsert:true});[1A[39G[3G[Jdb.users.update({name:name},{name:nam,team:'dotinstall',score:420},{upsert:true});[1A[40G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[41G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[40G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[39G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[38G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[37G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[36G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[35G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[34G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[33G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[32G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420[1;34m}[0m,{upsert:true});[1A[31G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[30G[3G[Jdb.users.update([1;34m{[0mname:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[29G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[28G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[27G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[26G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[25G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[24G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[23G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[22G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[21G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[20G[3G[Jdb.users.update({name:name[1;34m}[0m,{name:name,team:'dotinstall',score:420},{upsert:true});[1A[19G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true}[1;34m)[0m;[1A[18G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[17G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[16G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[15G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[14G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[13G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[12G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[11G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[10G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[9G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[8G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[7G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[6G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[5G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[4G[3G[Jdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[3G[3G[Jvdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[4G[3G[Jvadb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[5G[3G[Jvardb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[6G[3G[Jvar db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[7G[3G[Jvar ndb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[8G[3G[Jvar nadb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[9G[3G[Jvar namdb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[10G[3G[Jvar namedb.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[11G[3G[Jvar name=db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[12G[3G[Jvar name="db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[13G[3G[Jvar name=""db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[14G[3G[Jvar name="" db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[15G[3G[Jvar name="" ;db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[16G[3G[Jvar name="" ;db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[15G[3G[Jvar name="";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[14G[3G[Jvar name="";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[13G[3G[Jvar name="a";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[14G[3G[Jvar name="ab";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[15G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[16G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[17G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[18G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[19G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[20G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[21G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[22G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[23G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[24G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[25G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[1A[26G[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[21G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[20G[1A[3G[Jvar name="abe";db.users.update[1;34m([0m{name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[19G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},[1;34m{[0mupsert:true});[18G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[17G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[16G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[15G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[14G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[13G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[12G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[11G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[10G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[9G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[8G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[7G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true[1;34m}[0m);[6G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[5G[1A[3G[Jvar name="abe";db.users.update({name:name},[1;34m{[0mname:name,team:'dotinstall',score:420},{upsert:true});[4G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[3G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:420},{upsert:true});[2G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:20},{upsert:true});[1G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:20},{upsert:true});[20G[1A[3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:20},{upsert:true});[20G
+WriteResult({
+	"nMatched" : 0,
+	"nUpserted" : 1,
+	"nModified" : 0,
+	"_id" : ObjectId("541a2f5045e201afac2485e5")
+})
+> [3G[J[3G
+> [3G[J[3G
+> [3G[Jvar name="abe";db.users.update({name:name},{name:name,team:'dotinstall',score:20},{upsert:true});[20G[1A[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.update({name:'taguchi'},{name:'taguchi',team:'dotinstall',score:420},{upsert:true});[16G[1A[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "taguchi", "team" : "dotinstall", "score" : 420 }
+{ "name" : "abe", "team" : "dotinstall", "score" : 20 }
+> db.us[3G[Jdb.users[11G.re[3G[Jdb.users.re[14G
+db.users.reIndex(           db.users.renameCollection(
+db.users.remove(
+> [3G[Jdb.users.re[14Gmo[3G[Jdb.users.remove([19G{}[3G[Jdb.users.remove([1;34m{[0m}[20G[3G[Jdb.users.remove([1;34m{[0mn}[21G[3G[Jdb.users.remove([1;34m{[0mna}[22G[3G[Jdb.users.remove([1;34m{[0mnam}[23G[3G[Jdb.users.remove([1;34m{[0mname}[24G[3G[Jdb.users.remove([1;34m{[0mname:}[25G[3G[Jdb.users.remove([1;34m{[0mname:'}[26G[3G[Jdb.users.remove([1;34m{[0mname:''}[27G[3G[Jdb.users.remove({name:''}[26G[3G[Jdb.users.remove({name:'a'}[27G[3G[Jdb.users.remove({name:'ab'}[28G[3G[Jdb.users.remove({name:'abe'}[29G[3G[Jdb.users.remove([1;34m{[0mname:'abe'}[30G[3G[Jdb.users.remove({name:'abe'}[31G)[3G[Jdb.users.remove({name:'abe'})[32G
+WriteResult({ "nRemoved" : 1 })
+> [3G[Jdb.users.remove({name:'abe'})[32G[3G[Jdb.users.find({},{_id:0})[28G[3G[Jdb.users.find({},{_id:0})[28G
+{ "name" : "taguchi", "team" : "dotinstall", "score" : 420 }
+> [3G[J[3G
+> [3G[J[3G
+> 
+bye
+[1m[7m%[27m[1m[0m                                                                                ]2;m0a@abe-mac: ~/repo/github.com/m0a/myMongoDBSandBox/lessons]1;..ndBox/lessons[0m[27m[24m[J[39m[0m[49m[40m[39m m0a@ [44m[30m⮀[30m lessons [43m[34m⮀[30m ⭠ master± [49m[33m⮀[39m [K[?1h=
+
+Script done on Thu Sep 18 10:03:53 2014
